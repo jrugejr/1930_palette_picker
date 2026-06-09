@@ -22,46 +22,100 @@
   </header>
 
   <main>
-    <section class="panel grid-2">
-      <div>
-        <h2>1. Choose the job colors</h2>
-        <label for="backgroundSelect">Background / panel color</label>
-        <select id="backgroundSelect"></select>
+    <nav class="tabs" aria-label="App sections">
+      <button class="tab-button active" data-tab="browse" type="button">Browse Palettes</button>
+      <button class="tab-button" data-tab="collection" type="button">My Ronan Paint Collection</button>
+      <button class="tab-button" data-tab="random" type="button">Random Palette</button>
+      <button class="tab-button" data-tab="about" type="button">About</button>
+    </nav>
 
-        <label for="mainSelect">Main copy color</label>
-        <select id="mainSelect"></select>
-
-        <div class="button-row">
-          <button id="randomBtn" type="button">Random palette</button>
-          <button id="clearBtn" type="button" class="ghost">Reset filters</button>
-        </div>
-      </div>
-
-      <div class="finder-note">
-        <h3>How this MVP works</h3>
-        <p>Select a background color first. The main-copy list will only show colors that actually occur with that background in the historical Phalen combinations.</p>
-        <p>Palette cards show the original historical colors, plus your current Ronan match/confidence notes from the dictionary.</p>
-      </div>
-    </section>
-
-    <section class="panel">
-      <h2>2. My Ronan Paint Box</h2>
-      <p class="muted">Saved locally in this browser. No account, no backend, no spreadsheet.</p>
-      <div id="paintBox" class="paint-grid"></div>
-    </section>
-
-    <section class="panel results-panel">
-      <div class="results-header">
+    <section id="browse" class="tab-panel active">
+      <section class="panel grid-2">
         <div>
-          <h2>3. Matching historical palettes</h2>
-          <p id="resultMeta" class="muted"></p>
+          <h2>Browse historical palettes</h2>
+          <label for="backgroundSelect">Background / panel color</label>
+          <select id="backgroundSelect"></select>
+
+          <label for="mainSelect">Main copy color</label>
+          <select id="mainSelect"></select>
+
+          <div class="button-row">
+            <button id="clearBtn" type="button" class="ghost">Reset filters</button>
+          </div>
         </div>
-        <label class="toggle">
-          <input type="checkbox" id="ownedOnly">
-          <span>Show strongest owned matches first</span>
-        </label>
-      </div>
-      <div id="results" class="palette-grid"></div>
+
+        <div class="finder-note">
+          <h3>Panel first. Copy second.</h3>
+          <p>Select a background color first. The main-copy list only shows colors that actually occur with that background in the historical Phalen combinations.</p>
+          <p>Each result is a complete documented palette, not a generated suggestion.</p>
+        </div>
+      </section>
+
+      <section class="panel results-panel">
+        <div class="results-header">
+          <div>
+            <h2>Matching historical palettes</h2>
+            <p id="resultMeta" class="muted"></p>
+          </div>
+          <label class="toggle">
+            <input type="checkbox" id="ownedOnly">
+            <span>Show strongest owned matches first</span>
+          </label>
+        </div>
+        <div id="results" class="palette-grid"></div>
+      </section>
+    </section>
+
+    <section id="collection" class="tab-panel">
+      <section class="panel">
+        <h2>My Ronan Paint Collection</h2>
+        <p class="muted">Check off the Ronan colors you own. This saves locally in this browser only: no account, no backend, no tiny data raccoon.</p>
+        <div id="paintBox" class="paint-grid"></div>
+      </section>
+      <section class="panel">
+        <h2>Collection Notes</h2>
+        <p class="muted">This MVP uses your owned stock colors to estimate which palette colors have known Ronan matches. Future versions can add “can paint now,” “missing colors,” and “best next can to buy.”</p>
+      </section>
+    </section>
+
+    <section id="random" class="tab-panel">
+      <section class="panel grid-2">
+        <div>
+          <h2>Random Historical Palette</h2>
+          <p class="muted">Generate a random palette without disturbing your Browse tab selections.</p>
+          <button id="randomBtn" type="button">Generate Random Palette</button>
+        </div>
+        <div class="finder-note">
+          <h3>Chaos, but documented chaos.</h3>
+          <p>This pulls one complete palette from the 287 historical combinations. No AI color soup. No haunted color wheel. Just Phalen doing Phalen things.</p>
+        </div>
+      </section>
+
+      <section class="panel results-panel">
+        <div class="results-header">
+          <div>
+            <h2>Random result</h2>
+            <p id="randomMeta" class="muted">Hit the button and let the old sign men whisper.</p>
+          </div>
+        </div>
+        <div id="randomResult" class="palette-grid"></div>
+      </section>
+    </section>
+
+    <section id="about" class="tab-panel">
+      <section class="panel">
+        <h2>About this prototype</h2>
+        <p>This is a working proof of concept for a historical sign-painting palette explorer based on the digitized Phalen color-combination system.</p>
+        <p>The app flow is intentionally sign-painter-first:</p>
+        <ol class="about-list">
+          <li>Choose the background or panel color.</li>
+          <li>Choose the main copy color from real historical options.</li>
+          <li>Browse complete historical palettes.</li>
+          <li>View Ronan match and confidence notes.</li>
+          <li>Track owned Ronan paints locally.</li>
+        </ol>
+        <p class="muted">Ronan mappings are working notes and should be tested before any public official release.</p>
+      </section>
     </section>
   </main>
 
