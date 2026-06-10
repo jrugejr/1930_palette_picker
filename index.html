@@ -24,6 +24,7 @@
   <main>
     <nav class="tabs" aria-label="App sections">
       <button class="tab-button active" data-tab="browse" type="button">Browse Palettes</button>
+      <button class="tab-button" data-tab="allpalettes" type="button">All Palettes</button>
       <button class="tab-button" data-tab="collection" type="button">My Ronan Paint Collection</button>
       <button class="tab-button" data-tab="random" type="button">Random Palette</button>
       <button class="tab-button" data-tab="about" type="button">About</button>
@@ -37,7 +38,7 @@
           <select id="backgroundSelect"></select>
 
           <label for="mainSelect">Main copy color</label>
-          <select id="mainSelect"></select>
+          <select id="mainSelect" disabled></select>
 
           <div class="button-row">
             <button id="clearBtn" type="button" class="ghost">Reset filters</button>
@@ -46,8 +47,8 @@
 
         <div class="finder-note">
           <h3>Panel first. Copy second.</h3>
-          <p>Select a background color first. The main-copy list only shows colors that actually occur with that background in the historical Phalen combinations.</p>
-          <p>Each result is a complete documented palette, not a generated suggestion.</p>
+          <p>Pick a background color to begin. Until then, the palette swamp stays sealed.</p>
+          <p>Once you pick a background, only matching historical palettes appear. Then you can narrow by main copy.</p>
         </div>
       </section>
 
@@ -55,7 +56,7 @@
         <div class="results-header">
           <div>
             <h2>Matching historical palettes</h2>
-            <p id="resultMeta" class="muted"></p>
+            <p id="resultMeta" class="muted">Pick a background color to begin.</p>
           </div>
           <label class="toggle">
             <input type="checkbox" id="ownedOnly">
@@ -63,6 +64,14 @@
           </label>
         </div>
         <div id="results" class="palette-grid"></div>
+      </section>
+    </section>
+
+    <section id="allpalettes" class="tab-panel">
+      <section class="panel">
+        <h2>All Palettes Archive</h2>
+        <p class="muted">The full 287-combination archive, grouped by background color. Big reference mode. Tiny library dragon approved.</p>
+        <div id="archiveResults" class="archive-list"></div>
       </section>
     </section>
 

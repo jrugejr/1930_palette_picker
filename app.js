@@ -9,6 +9,7 @@ const paintBox = document.getElementById("paintBox");
 const ownedOnly = document.getElementById("ownedOnly");
 const randomResult = document.getElementById("randomResult");
 const randomMeta = document.getElementById("randomMeta");
+const archiveResults = document.getElementById("archiveResults");
 
 let ownedPaints = JSON.parse(localStorage.getItem(storageKey) || "[]");
 let currentRandomPalette = null;
@@ -100,20 +101,27 @@ function populatePaintBox(){
 }
 
 function populateBackgrounds(){
-  bgSelect.innerHTML = `<option value="">Any background</option>` + DATA.backgrounds.map(bg => `<option value="${bg}">${bg}</option>`).join("");
+  bgSelect.innerHTML = `<option value="">Pick a background...</option>` + DATA.backgrounds.map(bg => `<option value="${bg}">${bg}</option>`).join("");
 }
 
 function populateMains(){
   const bg = bgSelect.value;
-  let mains = DATA.palettes.filter(p => !bg || p.background === bg).map(p => p.main);
+  if(!bg){
+    mainSelect.innerHTML = `<option value="">Pick a background first</option>`;
+    mainSelect.disabled = true;
+    return;
+  }
+  let mains = DATA.palettes.filter(p => p.background === bg).map(p => p.main);
   mains = [...new Set(mains)].sort();
+  mainSelect.disabled = false;
   mainSelect.innerHTML = `<option value="">Any main copy</option>` + mains.map(m => `<option value="${m}">${m}</option>`).join("");
 }
 
 function getFilteredPalettes(){
   const bg = bgSelect.value;
   const main = mainSelect.value;
-  let filtered = DATA.palettes.filter(p => (!bg || p.background === bg) && (!main || p.main === main));
+  if(!bg) return [];
+  let filtered = DATA.palettes.filter(p => p.background === bg && (!main || p.main === main));
   if(ownedOnly.checked){
     filtered = filtered.slice().sort((a,b) => {
       const sa = paletteOwnedScore(a);
@@ -125,11 +133,19 @@ function getFilteredPalettes(){
 }
 
 function renderResults(){
+  const bg = bgSelect.value;
   const filtered = getFilteredPalettes();
   document.getElementById("paletteCount").textContent = DATA.palettes.length;
-  resultMeta.textContent = `${filtered.length} matching palette${filtered.length === 1 ? "" : "s"}`;
+
+  if(!bg){
+    resultMeta.textContent = "Pick a background color to begin.";
+    results.innerHTML = `<div class="empty-state"><strong>Start with the panel.</strong><br>Choose a background color above and the matching Phalen palettes will appear here.</div>`;
+    return;
+  }
+
+  resultMeta.textContent = `${filtered.length} matching palette${filtered.length === 1 ? "" : "s"} for ${bg}`;
   if(!filtered.length){
-    results.innerHTML = `<div class="card"><h3>No palettes found</h3><p class="muted">Try a different background or main copy color.</p></div>`;
+    results.innerHTML = `<div class="card"><h3>No palettes found</h3><p class="muted">Try a different main copy color.</p></div>`;
     return;
   }
   results.innerHTML = filtered.map(paletteCard).join("");
@@ -144,6 +160,37 @@ function renderRandom(palette){
 function generateRandomPalette(){
   const p = DATA.palettes[Math.floor(Math.random() * DATA.palettes.length)];
   renderRandom(p);
+}
+
+function renderArchive(){
+  const groups = {};
+  DATA.palettes.forEach(p => {
+    if(!groups[p.background]) groups[p.background] = [];
+    groups[p.background].push(p);
+  });
+
+  archiveResults.innerHTML = DATA.backgrounds.map(bg => {
+    const group = groups[bg] || [];
+    return `
+      <section class="archive-group">
+        <button class="archive-toggle" type="button">
+          <strong>${bg}</strong>
+          <span>${group.length} palette${group.length === 1 ? "" : "s"}</span>
+        </button>
+        <div class="archive-content">
+          <div class="palette-grid">
+            ${group.map(paletteCard).join("")}
+          </div>
+        </div>
+      </section>
+    `;
+  }).join("");
+
+  archiveResults.querySelectorAll(".archive-toggle").forEach(button => {
+    button.addEventListener("click", () => {
+      button.closest(".archive-group").classList.toggle("open");
+    });
+  });
 }
 
 function setupTabs(){
@@ -177,4 +224,5 @@ populatePaintBox();
 populateBackgrounds();
 populateMains();
 renderResults();
+renderArchive();
 generateRandomPalette();
