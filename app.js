@@ -17,8 +17,19 @@ let currentRandomPalette = null;
 function saveOwned(){ localStorage.setItem(storageKey, JSON.stringify(ownedPaints)); }
 function normalizeMatch(match){ return (match || "").toLowerCase(); }
 
+function getColorInfo(colorName){
+  return DATA.dictionary[colorName] || {};
+}
+
+function swatchFor(colorName){
+  const info = getColorInfo(colorName);
+  if(info.uiColor) return info.uiColor;
+  if(info.primaryFamily && DATA.familySwatches[info.primaryFamily]) return DATA.familySwatches[info.primaryFamily];
+  return "#718096";
+}
+
 function isOwnedColor(colorName){
-  const info = DATA.dictionary[colorName] || {};
+  const info = getColorInfo(colorName);
   const match = normalizeMatch(info.ronanMatch);
   if (!match) return false;
   return DATA.ronanStock.some(stock => {
@@ -43,16 +54,26 @@ function confidenceClass(conf){
 }
 
 function colorBlock(role, color){
-  const info = DATA.dictionary[color] || {};
+  const info = getColorInfo(color);
   const match = info.ronanMatch || "No Ronan match yet";
   const confidence = info.confidence || "Unknown";
+  const uiConfidence = info.uiConfidence ? ` · Swatch: ${info.uiConfidence}` : "";
+  const swatch = swatchFor(color);
   return `
-    <div class="color-row">
-      <span class="role">${role}</span>
-      <strong>${color}</strong>
-      <span class="match">Ronan: ${match} <span class="${confidenceClass(confidence)}">(${confidence})</span></span>
+    <div class="color-row" style="border-left-color:${swatch}">
+      <div class="swatch" style="background:${swatch}" title="${color}"></div>
+      <div>
+        <span class="role">${role}</span>
+        <strong>${color}</strong>
+        <span class="match">Ronan: ${match} <span class="${confidenceClass(confidence)}">(${confidence})</span>${uiConfidence}</span>
+      </div>
     </div>
   `;
+}
+
+function paletteStrip(p){
+  const colors = [p.background, p.main, ...p.accents];
+  return `<div class="palette-strip">${colors.map(c => `<div class="strip-swatch" style="background:${swatchFor(c)}" title="${c}"></div>`).join("")}</div>`;
 }
 
 function paletteCard(p){
@@ -61,6 +82,7 @@ function paletteCard(p){
   return `
     <article class="card">
       <h3>Palette #${p.id} <span class="badge">${score.owned}/${score.total} owned</span></h3>
+      ${paletteStrip(p)}
       <div class="color-list">
         ${colorBlock("Background", p.background)}
         ${colorBlock("Main Copy", p.main)}
@@ -96,8 +118,18 @@ function populatePaintBox(){
       saveOwned();
       renderResults();
       if(currentRandomPalette) renderRandom(currentRandomPalette);
+      renderArchive();
     });
   });
+}
+
+function setAllPaints(checked){
+  ownedPaints = checked ? DATA.ronanStock.map(s => `${s.name} - ${s.code}`) : [];
+  saveOwned();
+  populatePaintBox();
+  renderResults();
+  if(currentRandomPalette) renderRandom(currentRandomPalette);
+  renderArchive();
 }
 
 function populateBackgrounds(){
@@ -214,6 +246,8 @@ document.getElementById("clearBtn").addEventListener("click", () => {
   renderResults();
 });
 document.getElementById("randomBtn").addEventListener("click", generateRandomPalette);
+document.getElementById("selectAllPaints").addEventListener("click", () => setAllPaints(true));
+document.getElementById("clearAllPaints").addEventListener("click", () => setAllPaints(false));
 
 if("serviceWorker" in navigator){
   window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(()=>{}));

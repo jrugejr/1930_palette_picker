@@ -40,6 +40,11 @@
           <label for="mainSelect">Main copy color</label>
           <select id="mainSelect" disabled></select>
 
+          <label class="toggle inline-toggle">
+            <input type="checkbox" id="ownedOnly">
+            <span>Show strongest owned matches first</span>
+          </label>
+
           <div class="button-row">
             <button id="clearBtn" type="button" class="ghost">Reset filters</button>
           </div>
@@ -58,10 +63,6 @@
             <h2>Matching historical palettes</h2>
             <p id="resultMeta" class="muted">Pick a background color to begin.</p>
           </div>
-          <label class="toggle">
-            <input type="checkbox" id="ownedOnly">
-            <span>Show strongest owned matches first</span>
-          </label>
         </div>
         <div id="results" class="palette-grid"></div>
       </section>
@@ -79,6 +80,10 @@
       <section class="panel">
         <h2>My Ronan Paint Collection</h2>
         <p class="muted">Check off the Ronan colors you own. This saves locally in this browser only: no account, no backend, no tiny data raccoon.</p>
+        <div class="collection-actions">
+          <button id="selectAllPaints" type="button">Select all</button>
+          <button id="clearAllPaints" type="button" class="ghost">Clear all</button>
+        </div>
         <div id="paintBox" class="paint-grid"></div>
       </section>
       <section class="panel">
@@ -123,13 +128,13 @@
           <li>View Ronan match and confidence notes.</li>
           <li>Track owned Ronan paints locally.</li>
         </ol>
-        <p class="muted">Ronan mappings are working notes and should be tested before any public official release.</p>
+        <p class="muted">Ronan mappings and swatches are working notes and should be tested before any public official release.</p>
       </section>
     </section>
   </main>
 
   <footer>
-    <p>Prototype for JJ. Historical palette data from the digitized Phalen color-combination system. Ronan mappings are working notes and should be tested before publication.</p>
+    <p>Prototype for JJ. Historical palette data from the digitized Phalen color-combination system. Ronan mappings and UI swatches are working notes and should be tested before publication.</p>
   </footer>
 
   <script src="data.js"></script>

@@ -2687,8 +2687,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "Red",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "",
+      "uiConfidence": ""
     },
     "Black": {
       "canonical": "Black",
@@ -2696,8 +2699,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Black",
       "secondaryFamily": "",
       "ronanMatch": "Black - U021",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#1A1C27",
+      "uiConfidence": "Derived"
     },
     "Blue": {
       "canonical": "Blue",
@@ -2705,8 +2711,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "Process Blue - U154",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#4E69A8",
+      "uiConfidence": "Derived"
     },
     "Blue Gray": {
       "canonical": "Blue Gray",
@@ -2714,8 +2723,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gray",
       "secondaryFamily": "Blue",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6F8091",
+      "uiConfidence": "Estimated"
     },
     "Blue Green": {
       "canonical": "Blue Green",
@@ -2723,8 +2735,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "Blue",
       "ronanMatch": "Spruce Green Mix",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#5F8C86",
+      "uiConfidence": "Estimated"
     },
     "Blue Purple": {
       "canonical": "Blue Purple",
@@ -2732,8 +2747,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Purple",
       "secondaryFamily": "Blue",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6E6A97",
+      "uiConfidence": "Estimated"
     },
     "Blue Violet": {
       "canonical": "Blue Violet",
@@ -2741,8 +2759,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Violet",
       "secondaryFamily": "Blue",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6179B5",
+      "uiConfidence": "Derived"
     },
     "Bright Blue": {
       "canonical": "Bright Blue",
@@ -2750,8 +2771,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#3F78C7",
+      "uiConfidence": "Estimated"
     },
     "Bright Green": {
       "canonical": "Bright Green",
@@ -2759,8 +2783,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6D9750",
+      "uiConfidence": "Estimated"
     },
     "Bright Light Green": {
       "canonical": "Bright Light Green",
@@ -2768,8 +2795,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#9EBB78",
+      "uiConfidence": "Estimated"
     },
     "Brown": {
       "canonical": "Brown",
@@ -2777,8 +2807,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#8A794B",
+      "uiConfidence": "Derived"
     },
     "Brownish Green": {
       "canonical": "Brownish Green",
@@ -2786,8 +2819,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "Brown",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6F7350",
+      "uiConfidence": "Estimated"
     },
     "Buff": {
       "canonical": "Buff",
@@ -2795,8 +2831,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Cream",
       "secondaryFamily": "Tan",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#EFB16C",
+      "uiConfidence": "Derived"
     },
     "Cold Green": {
       "canonical": "Cold Green",
@@ -2804,8 +2843,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#7E9B8B",
+      "uiConfidence": "Estimated"
     },
     "Cool Green": {
       "canonical": "Cool Green",
@@ -2813,8 +2855,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#769487",
+      "uiConfidence": "Estimated"
     },
     "Corn": {
       "canonical": "Corn",
@@ -2822,8 +2867,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Yellow",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D6B84A",
+      "uiConfidence": "Estimated"
     },
     "Cream": {
       "canonical": "Cream",
@@ -2831,8 +2879,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Cream",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#EAE5C6",
+      "uiConfidence": "Derived"
     },
     "Dark Blue": {
       "canonical": "Dark Blue",
@@ -2840,8 +2891,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "Dark Blue - 158",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#153477",
+      "uiConfidence": "Derived"
     },
     "Dark Brown": {
       "canonical": "Dark Brown",
@@ -2849,8 +2903,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "",
       "ronanMatch": "Dark Brown - 115",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6C4838",
+      "uiConfidence": "Derived"
     },
     "Dark Gray": {
       "canonical": "Dark Gray",
@@ -2858,8 +2915,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gray",
       "secondaryFamily": "",
       "ronanMatch": "Dark Gray Mix",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#33302A",
+      "uiConfidence": "Derived"
     },
     "Dark Green": {
       "canonical": "Dark Green",
@@ -2867,8 +2927,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "Dark Green - 148",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#404A3B",
+      "uiConfidence": "Derived"
     },
     "Dark Lavender": {
       "canonical": "Dark Lavender",
@@ -2876,8 +2939,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Purple",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#675D72",
+      "uiConfidence": "Estimated"
     },
     "Dark Red": {
       "canonical": "Dark Red",
@@ -2885,8 +2951,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "Carmine - U106",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#8C3838",
+      "uiConfidence": "Estimated"
     },
     "Dark Rose": {
       "canonical": "Dark Rose",
@@ -2894,8 +2963,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Rose",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#8A4B5B",
+      "uiConfidence": "Estimated"
     },
     "Dark Yellow": {
       "canonical": "Dark Yellow",
@@ -2903,8 +2975,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Yellow",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#B89330",
+      "uiConfidence": "Estimated"
     },
     "Dull Blue": {
       "canonical": "Dull Blue",
@@ -2912,8 +2987,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "Add Orange",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6B7F96",
+      "uiConfidence": "Estimated"
     },
     "Dull Gray": {
       "canonical": "Dull Gray",
@@ -2921,8 +2999,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gray",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#9A9A90",
+      "uiConfidence": "Estimated"
     },
     "Dull Green": {
       "canonical": "Dull Green",
@@ -2930,8 +3011,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "Add Red",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#7A866A",
+      "uiConfidence": "Estimated"
     },
     "Dull Lavender": {
       "canonical": "Dull Lavender",
@@ -2939,8 +3023,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Purple",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "Add Yellow",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#8C8290",
+      "uiConfidence": "Estimated"
     },
     "Dull Yellow": {
       "canonical": "Dull Yellow",
@@ -2948,8 +3035,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Yellow",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "Add Purple",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C5B56A",
+      "uiConfidence": "Estimated"
     },
     "Emerald Green": {
       "canonical": "Emerald Green",
@@ -2957,8 +3047,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "Emerald Green - 142",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#4E7B61",
+      "uiConfidence": "Estimated"
     },
     "Fawn": {
       "canonical": "Fawn",
@@ -2966,8 +3059,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Tan",
       "secondaryFamily": "",
       "ronanMatch": "Camel Mix",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#B99D73",
+      "uiConfidence": "Estimated"
     },
     "Gold": {
       "canonical": "Gold",
@@ -2975,8 +3071,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gold",
       "secondaryFamily": "",
       "ronanMatch": "Gold Metallic - U109",
+      "otherPossibleMatch": "Imitation Gold - U107?",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D4A73A",
+      "uiConfidence": "Derived"
     },
     "Gray": {
       "canonical": "Gray",
@@ -2984,8 +3083,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gray",
       "secondaryFamily": "",
       "ronanMatch": "Medium Gray Mix?",
+      "otherPossibleMatch": "(mix R,Y,B ?)",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A9A89F",
+      "uiConfidence": "Estimated"
     },
     "Gray Blue": {
       "canonical": "Gray Blue",
@@ -2993,8 +3095,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "(Blue with Orange?)",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#78859B",
+      "uiConfidence": "Estimated"
     },
     "Grayed Magenta": {
       "canonical": "Grayed Magenta",
@@ -3002,8 +3107,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Magenta",
       "secondaryFamily": "Gray",
       "ronanMatch": "",
+      "otherPossibleMatch": "(add green or blue?)",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#9A6B77",
+      "uiConfidence": "Estimated"
     },
     "Grayed Yellow": {
       "canonical": "Grayed Yellow",
@@ -3011,8 +3119,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Yellow",
       "secondaryFamily": "Gray",
       "ronanMatch": "",
+      "otherPossibleMatch": "(add purple to yellow?)",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C7BA84",
+      "uiConfidence": "Estimated"
     },
     "Green": {
       "canonical": "Green",
@@ -3020,8 +3131,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "Process Green - 143",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6E8963",
+      "uiConfidence": "Estimated"
     },
     "Greenish Blue": {
       "canonical": "Greenish Blue",
@@ -3029,8 +3143,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "Green",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#5D8B96",
+      "uiConfidence": "Estimated"
     },
     "Greenish Cream": {
       "canonical": "Greenish Cream",
@@ -3038,8 +3155,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Cream",
       "secondaryFamily": "Green",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#8AA5A0",
+      "uiConfidence": "Derived"
     },
     "Ivory": {
       "canonical": "Ivory",
@@ -3047,8 +3167,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Cream",
       "secondaryFamily": "",
       "ronanMatch": "Ivory - U116",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#DAD9C4",
+      "uiConfidence": "Derived"
     },
     "Lavender": {
       "canonical": "Lavender",
@@ -3056,8 +3179,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Purple",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#7E737E",
+      "uiConfidence": "Derived"
     },
     "Lavender Red": {
       "canonical": "Lavender Red",
@@ -3065,8 +3191,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "Purple",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A46B75",
+      "uiConfidence": "Estimated"
     },
     "Light Blue": {
       "canonical": "Light Blue",
@@ -3074,8 +3203,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "Light Blue - 152",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#AFC4D9",
+      "uiConfidence": "Estimated"
     },
     "Light Bright Blue": {
       "canonical": "Light Bright Blue",
@@ -3083,8 +3215,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#87A9D6",
+      "uiConfidence": "Estimated"
     },
     "Light Bright Green": {
       "canonical": "Light Bright Green",
@@ -3092,8 +3227,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A9C98B",
+      "uiConfidence": "Estimated"
     },
     "Light Brown": {
       "canonical": "Light Brown",
@@ -3101,8 +3239,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "",
       "ronanMatch": "Light Brown",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C19C82",
+      "uiConfidence": "Derived"
     },
     "Light Cold Bluish Green": {
       "canonical": "Light Cold Bluish Green",
@@ -3110,8 +3251,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "Blue",
       "ronanMatch": "Teal - 157?",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#8FAFA7",
+      "uiConfidence": "Estimated"
     },
     "Light Gray": {
       "canonical": "Light Gray",
@@ -3119,8 +3263,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gray",
       "secondaryFamily": "",
       "ronanMatch": "Light Gray - 180",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D9D9CD",
+      "uiConfidence": "Derived"
     },
     "Light Green": {
       "canonical": "Light Green",
@@ -3128,8 +3275,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "Light Green - U140",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A6BC8C",
+      "uiConfidence": "estimated"
     },
     "Light Green Yellow": {
       "canonical": "Light Green Yellow",
@@ -3137,8 +3287,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Yellow",
       "secondaryFamily": "Green",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C4C982",
+      "uiConfidence": "estimated"
     },
     "Light Greenish Blue": {
       "canonical": "Light Greenish Blue",
@@ -3146,8 +3299,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "Green",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#9FBCC2",
+      "uiConfidence": "estimated"
     },
     "Light Lavender": {
       "canonical": "Light Lavender",
@@ -3155,8 +3311,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Purple",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#B2A9B8",
+      "uiConfidence": "estimated"
     },
     "Light Orange": {
       "canonical": "Light Orange",
@@ -3164,8 +3323,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Orange",
       "secondaryFamily": "",
       "ronanMatch": "Light Orange",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#F4D6C3",
+      "uiConfidence": "Derived"
     },
     "Light Pink": {
       "canonical": "Light Pink",
@@ -3173,8 +3335,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D7B7B3",
+      "uiConfidence": "Estimated"
     },
     "Light Red": {
       "canonical": "Light Red",
@@ -3182,8 +3347,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C88D82",
+      "uiConfidence": "Estimated"
     },
     "Light Rose": {
       "canonical": "Light Rose",
@@ -3191,8 +3359,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Rose",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D0A3A2",
+      "uiConfidence": "Estimated"
     },
     "Light Tan": {
       "canonical": "Light Tan",
@@ -3200,8 +3371,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D2B896",
+      "uiConfidence": "Estimated"
     },
     "Light Yellow": {
       "canonical": "Light Yellow",
@@ -3209,8 +3383,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Yellow",
       "secondaryFamily": "",
       "ronanMatch": "Light Yellow - U131",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#E9D98B",
+      "uiConfidence": "Estimated"
     },
     "Light Yellow Cream": {
       "canonical": "Light Yellow Cream",
@@ -3218,8 +3395,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Cream",
       "secondaryFamily": "Yellow",
       "ronanMatch": "",
+      "otherPossibleMatch": "(modify Vanilla Bean Mix)",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#EEE4B9",
+      "uiConfidence": "Estimated"
     },
     "Light Yellow Green": {
       "canonical": "Light Yellow Green",
@@ -3227,8 +3407,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "Yellow",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C4D08D",
+      "uiConfidence": "Estimated"
     },
     "Magenta": {
       "canonical": "Magenta",
@@ -3236,8 +3419,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Magenta",
       "secondaryFamily": "",
       "ronanMatch": "Magenta - U166",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A15C73",
+      "uiConfidence": "Estimated"
     },
     "Magenta Red": {
       "canonical": "Magenta Red",
@@ -3245,8 +3431,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "Magenta",
       "ronanMatch": "Ruby Red Mix",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A34A5A",
+      "uiConfidence": "Estimated"
     },
     "Maroon": {
       "canonical": "Maroon",
@@ -3254,8 +3443,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "Maroon - 108",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#7A3440",
+      "uiConfidence": "Estimated"
     },
     "Medium Brown": {
       "canonical": "Medium Brown",
@@ -3263,8 +3455,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "",
       "ronanMatch": "Medium Brown - 114",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#674230",
+      "uiConfidence": "Derived"
     },
     "Medium Gray": {
       "canonical": "Medium Gray",
@@ -3272,8 +3467,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gray",
       "secondaryFamily": "",
       "ronanMatch": "Medium Gray Mix",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#85847F",
+      "uiConfidence": "Derived"
     },
     "Medium Green": {
       "canonical": "Medium Green",
@@ -3281,8 +3479,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "Medium Green - U144",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6E8660",
+      "uiConfidence": "Estimated"
     },
     "Midnight Blue": {
       "canonical": "Midnight Blue",
@@ -3290,8 +3491,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#102347",
+      "uiConfidence": "Estimated"
     },
     "Navy Blue": {
       "canonical": "Navy Blue",
@@ -3299,8 +3503,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "Reflex Blue - U155",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#050F2B",
+      "uiConfidence": "Derived"
     },
     "Old Rose": {
       "canonical": "Old Rose",
@@ -3308,8 +3515,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Rose",
       "secondaryFamily": "Red",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#AB4253",
+      "uiConfidence": "Derived"
     },
     "Olive Green": {
       "canonical": "Olive Green",
@@ -3317,8 +3527,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#828461",
+      "uiConfidence": "Derived"
     },
     "Orange": {
       "canonical": "Orange",
@@ -3326,8 +3539,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Orange",
       "secondaryFamily": "",
       "ronanMatch": "Bright Orange - U125",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D98025",
+      "uiConfidence": "Derived"
     },
     "Orange Red": {
       "canonical": "Orange Red",
@@ -3335,8 +3551,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "Orange",
       "ronanMatch": "Hugger Orange Mix?",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C96537",
+      "uiConfidence": "Estimated"
     },
     "Orange Yellow": {
       "canonical": "Orange Yellow",
@@ -3344,8 +3563,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Yellow",
       "secondaryFamily": "Orange",
       "ronanMatch": "Golden Yellow - U135",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D8A83D",
+      "uiConfidence": "Estimated"
     },
     "Pale Blue": {
       "canonical": "Pale Blue",
@@ -3353,8 +3575,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "Baby Blue?",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C1CDDC",
+      "uiConfidence": "Derived"
     },
     "Pale Gray": {
       "canonical": "Pale Gray",
@@ -3362,8 +3587,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gray",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A1A799",
+      "uiConfidence": "Derived"
     },
     "Pale Green": {
       "canonical": "Pale Green",
@@ -3371,8 +3599,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#B8C59D",
+      "uiConfidence": "Estimated"
     },
     "Pale Lavender": {
       "canonical": "Pale Lavender",
@@ -3380,8 +3611,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Purple",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C1B6C7",
+      "uiConfidence": "Estimated"
     },
     "Pale Maroon": {
       "canonical": "Pale Maroon",
@@ -3389,8 +3623,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A06A6F",
+      "uiConfidence": "Estimated"
     },
     "Pale Olive Green": {
       "canonical": "Pale Olive Green",
@@ -3398,8 +3635,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#B7BF85",
+      "uiConfidence": "Derived"
     },
     "Pale Pink": {
       "canonical": "Pale Pink",
@@ -3407,8 +3647,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D9B8B0",
+      "uiConfidence": "Estimated"
     },
     "Pale Purple": {
       "canonical": "Pale Purple",
@@ -3416,8 +3659,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Purple",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#B7ACC5",
+      "uiConfidence": "Estimated"
     },
     "Pale Turquoise": {
       "canonical": "Pale Turquoise",
@@ -3425,8 +3671,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A6C8C4",
+      "uiConfidence": "Estimated"
     },
     "Pea Green": {
       "canonical": "Pea Green",
@@ -3434,8 +3683,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#95A86B",
+      "uiConfidence": "Estimated"
     },
     "Pink": {
       "canonical": "Pink",
@@ -3443,8 +3695,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D59D9A",
+      "uiConfidence": "Estimated"
     },
     "Primrose": {
       "canonical": "Primrose",
@@ -3452,8 +3707,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Yellow",
       "secondaryFamily": "Cream",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#F4DA61",
+      "uiConfidence": "Derived"
     },
     "Purple": {
       "canonical": "Purple",
@@ -3461,8 +3719,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Purple",
       "secondaryFamily": "",
       "ronanMatch": "Purple - U162",
+      "otherPossibleMatch": "Process Purple?",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#78669A",
+      "uiConfidence": "Estimated"
     },
     "Red": {
       "canonical": "Red",
@@ -3470,8 +3731,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "Cherry Red - u104",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A74336",
+      "uiConfidence": "Estimated"
     },
     "Red Brown": {
       "canonical": "Red Brown",
@@ -3479,8 +3743,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "Red",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#8A5641",
+      "uiConfidence": "Estimated"
     },
     "Red Caps (unknown)": {
       "canonical": "Red Caps (unknown)",
@@ -3488,8 +3755,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "",
+      "uiConfidence": "Estimated"
     },
     "Red Orange": {
       "canonical": "Red Orange",
@@ -3497,8 +3767,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Orange",
       "secondaryFamily": "Red",
       "ronanMatch": "Red Orange - 1100",
+      "otherPossibleMatch": "",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C8673B",
+      "uiConfidence": "Estimated"
     },
     "Reddish Brown": {
       "canonical": "Reddish Brown",
@@ -3506,8 +3779,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "Red",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#8B5A3C",
+      "uiConfidence": "Estimated"
     },
     "Reddish Lavender": {
       "canonical": "Reddish Lavender",
@@ -3515,8 +3791,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Purple",
       "secondaryFamily": "Red",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#9A7D91",
+      "uiConfidence": "Estimated"
     },
     "Salmon": {
       "canonical": "Salmon",
@@ -3524,8 +3803,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#DB8479",
+      "uiConfidence": "Derived"
     },
     "Salmon Pink": {
       "canonical": "Salmon Pink",
@@ -3533,8 +3815,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D8A69A",
+      "uiConfidence": "Estimated"
     },
     "Shellac": {
       "canonical": "Shellac",
@@ -3542,8 +3827,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "Amber",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A06A42",
+      "uiConfidence": "Estimated"
     },
     "Silver": {
       "canonical": "Silver",
@@ -3551,26 +3839,35 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Silver",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C3C3BE",
+      "uiConfidence": "Estimated"
     },
     "Slate": {
       "canonical": "Slate",
       "historicalVariants": "Slate",
-      "primaryFamily": "Gray",
-      "secondaryFamily": "Blue",
+      "primaryFamily": "Blue-Gray",
+      "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#485F66",
+      "uiConfidence": "Derived"
     },
     "Slate Color": {
       "canonical": "Slate Color",
       "historicalVariants": "Slate Color",
-      "primaryFamily": "Gray",
-      "secondaryFamily": "Blue?",
+      "primaryFamily": "Blue-Gray",
+      "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#506058",
+      "uiConfidence": "Derived"
     },
     "Slate Gray": {
       "canonical": "Slate Gray",
@@ -3578,8 +3875,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gray",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6F7480",
+      "uiConfidence": "Estimated"
     },
     "Soft Blue": {
       "canonical": "Soft Blue",
@@ -3587,8 +3887,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#89A4C4",
+      "uiConfidence": "Estimated"
     },
     "Soft Light Blue": {
       "canonical": "Soft Light Blue",
@@ -3596,8 +3899,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#B7C9D8",
+      "uiConfidence": "Estimated"
     },
     "Soft Magenta": {
       "canonical": "Soft Magenta",
@@ -3605,8 +3911,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Magenta",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#B08391",
+      "uiConfidence": "Estimated"
     },
     "Tan": {
       "canonical": "Tan",
@@ -3614,8 +3923,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Brown",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#C9A57A",
+      "uiConfidence": "Estimated"
     },
     "Taupe": {
       "canonical": "Taupe",
@@ -3623,8 +3935,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Gray",
       "secondaryFamily": "Brown",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A38E7A",
+      "uiConfidence": "Estimated"
     },
     "Terra Cotta": {
       "canonical": "Terra Cotta",
@@ -3632,8 +3947,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Orange",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#B85B2B",
+      "uiConfidence": "Derived"
     },
     "Turquoise": {
       "canonical": "Turquoise",
@@ -3641,8 +3959,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "Turquoise - Mix",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#6FA8A5",
+      "uiConfidence": "Estimated"
     },
     "Turquoise Blue": {
       "canonical": "Turquoise Blue",
@@ -3650,8 +3971,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "Turquoise - Mix",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#5F95B2",
+      "uiConfidence": "Estimated"
     },
     "Ultramarine Blue": {
       "canonical": "Ultramarine Blue",
@@ -3659,8 +3983,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Blue",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#00529C",
+      "uiConfidence": "Derived"
     },
     "Vermillion": {
       "canonical": "Vermillion",
@@ -3668,8 +3995,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Red",
       "secondaryFamily": "",
       "ronanMatch": "Scarlet/Firey Red - 1102",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#BF4430",
+      "uiConfidence": "Derived"
     },
     "White": {
       "canonical": "White",
@@ -3677,8 +4007,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "White",
       "secondaryFamily": "",
       "ronanMatch": "White - U101",
+      "otherPossibleMatch": "Lettering White if Main Copy!!!",
       "confidence": "High",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#F4F1E7",
+      "uiConfidence": "Estimated"
     },
     "Yellow": {
       "canonical": "Yellow",
@@ -3686,8 +4019,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Yellow",
       "secondaryFamily": "",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#F7DF19",
+      "uiConfidence": "Derived"
     },
     "Yellow Green": {
       "canonical": "Yellow Green",
@@ -3695,8 +4031,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "Yellow",
       "ronanMatch": "Lime Green -",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#A8B85A",
+      "uiConfidence": "Estimated"
     },
     "Yellow Orange": {
       "canonical": "Yellow Orange",
@@ -3704,8 +4043,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Orange",
       "secondaryFamily": "Yellow",
       "ronanMatch": "Tangerine Mix",
+      "otherPossibleMatch": "",
       "confidence": "Med",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#D89A3D",
+      "uiConfidence": "Estimated"
     },
     "Yellowish Green": {
       "canonical": "Yellowish Green",
@@ -3713,8 +4055,11 @@ window.COLOR_ART_DATA = {
       "primaryFamily": "Green",
       "secondaryFamily": "Yellow",
       "ronanMatch": "",
+      "otherPossibleMatch": "",
       "confidence": "Low",
-      "notes": ""
+      "notes": "",
+      "uiColor": "#9EB56A",
+      "uiConfidence": "Estimated"
     }
   },
   "backgrounds": [
@@ -3883,6 +4228,28 @@ window.COLOR_ART_DATA = {
     "Yellow Orange",
     "Yellowish Green"
   ],
+  "familySwatches": {
+    "Black": "#101018",
+    "White": "#F4F1E7",
+    "Gray": "#A7A59C",
+    "Blue": "#4E69A8",
+    "Green": "#6E8A63",
+    "Yellow": "#E9D98A",
+    "Orange": "#D98025",
+    "Red": "#A74336",
+    "Pink": "#D59D9A",
+    "Rose": "#AB4253",
+    "Purple": "#78669A",
+    "Violet": "#6D6A93",
+    "Magenta": "#A15C73",
+    "Brown": "#8B5A3C",
+    "Tan": "#C9A57A",
+    "Cream": "#EAE5C6",
+    "Gold": "#D4A73A",
+    "Silver": "#C3C3BE",
+    "Turquoise": "#6FA8A5",
+    "Blue-Gray": "#6E7481"
+  },
   "ronanStock": [
     {
       "name": "Black",
