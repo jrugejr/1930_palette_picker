@@ -31,21 +31,6 @@ A no-build static PWA prototype for browsing a digitized historical sign-paintin
 - `sw.js` - service worker
 - `icon.svg` - app icon
 
-## GitHub Pages setup
-
-1. Create a new GitHub repository.
-2. Upload all files to the repository root.
-3. Go to **Settings**.
-4. Go to **Pages**.
-5. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-6. Click **Save**.
-7. Your app will be live at:
-
-`https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
-
 ## Important note
 
 This is a prototype. Ronan mappings, mix assumptions, and historical UI swatches are working notes and should be tested before any public official release.
