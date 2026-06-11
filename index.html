@@ -7,20 +7,13 @@
   <meta name="theme-color" content="#05070d">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="style.css">
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "x5fpt2f2w3");
-</script>
 </head>
 <body>
   <header class="app-header">
     <div>
       <p class="eyebrow">Historical Sign-Painting Palette Explorer</p>
       <h1>Phalen + Ronan Palette Explorer</h1>
-      <p class="tagline">287 historical color combinations, filtered like a sign painter thinks: panel first, main copy second, accents after.</p>
+      <p class="tagline">287 historical color combinations, translated toward modern Ronan stock colors, formula colors, and makeable shop mixes.</p>
     </div>
     <div class="stats-card">
       <strong id="paletteCount">287</strong>
@@ -31,6 +24,7 @@
   <main>
     <nav class="tabs" aria-label="App sections">
       <button class="tab-button active" data-tab="browse" type="button">Browse Palettes</button>
+      <button class="tab-button" data-tab="builds" type="button">Color Builds</button>
       <button class="tab-button" data-tab="allpalettes" type="button">All Palettes</button>
       <button class="tab-button" data-tab="collection" type="button">My Ronan Paint Collection</button>
       <button class="tab-button" data-tab="random" type="button">Random Palette</button>
@@ -59,8 +53,8 @@
 
         <div class="finder-note">
           <h3>Panel first. Copy second.</h3>
-          <p>Pick a background color to begin. Until then, the palette swamp stays sealed.</p>
-          <p>Once you pick a background, only matching historical palettes appear. Then you can narrow by main copy.</p>
+          <p>Pick a background color to begin. Then narrow by the main copy color.</p>
+          <p>Palette cards show historical names, swatches, Ronan translation notes, and whether you own the current direct stock anchors.</p>
         </div>
       </section>
 
@@ -75,10 +69,35 @@
       </section>
     </section>
 
+    <section id="builds" class="tab-panel">
+      <section class="panel grid-2">
+        <div>
+          <h2>Color Builds</h2>
+          <label for="buildSearch">Search canonical color</label>
+          <input id="buildSearch" class="text-input" type="search" placeholder="Example: Greenish Cream, Old Rose, Blue Green">
+        </div>
+        <div class="finder-note">
+          <h3>The next engine</h3>
+          <p>This page is the bridge between Phalen names and Ronan shop reality.</p>
+          <p>For now it shows direct stock/formula anchors from the hex-reviewed Rosetta sheet. Later, each color can include true builds like: Vanilla Bean base + touch French Green + White/Ivory.</p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="results-header">
+          <div>
+            <h2>Current Ronan anchors</h2>
+            <p id="buildMeta" class="muted"></p>
+          </div>
+        </div>
+        <div id="buildResults" class="build-grid"></div>
+      </section>
+    </section>
+
     <section id="allpalettes" class="tab-panel">
       <section class="panel">
         <h2>All Palettes Archive</h2>
-        <p class="muted">The full 287-combination archive, grouped by background color. Big reference mode. Tiny library dragon approved.</p>
+        <p class="muted">The full 287-combination archive, grouped by background color.</p>
         <div id="archiveResults" class="archive-list"></div>
       </section>
     </section>
@@ -86,16 +105,18 @@
     <section id="collection" class="tab-panel">
       <section class="panel">
         <h2>My Ronan Paint Collection</h2>
-        <p class="muted">Check off the Ronan colors you own. This saves locally in this browser only: no account, no backend, no tiny data raccoon.</p>
+        <p class="muted">Check off the actual Ronan stock colors you own. Formula/mix colors are shown below as reference colors, not cans.</p>
         <div class="collection-actions">
-          <button id="selectAllPaints" type="button">Select all</button>
+          <button id="selectAllPaints" type="button">Select all stock cans</button>
           <button id="clearAllPaints" type="button" class="ghost">Clear all</button>
         </div>
         <div id="paintBox" class="paint-grid"></div>
       </section>
+
       <section class="panel">
-        <h2>Collection Notes</h2>
-        <p class="muted">This MVP uses your owned stock colors to estimate which palette colors have known Ronan matches. Future versions can add “can paint now,” “missing colors,” and “best next can to buy.”</p>
+        <h2>Ronan Formula / Mix Color Reference</h2>
+        <p class="muted">These are Ronan chart colors with sampled hex values. They may represent formulas or mixes rather than stock cans.</p>
+        <div id="formulaBox" class="paint-grid"></div>
       </section>
     </section>
 
@@ -108,7 +129,7 @@
         </div>
         <div class="finder-note">
           <h3>Chaos, but documented chaos.</h3>
-          <p>This pulls one complete palette from the 287 historical combinations. No AI color soup. No haunted color wheel. Just Phalen doing Phalen things.</p>
+          <p>This pulls one complete palette from the 287 historical combinations.</p>
         </div>
       </section>
 
@@ -127,15 +148,15 @@
       <section class="panel">
         <h2>About this prototype</h2>
         <p>This is a working proof of concept for a historical sign-painting palette explorer based on the digitized Phalen color-combination system.</p>
-        <p>The app flow is intentionally sign-painter-first:</p>
+        <p>The developing goal is to preserve the historical palette language while translating it into practical Ronan workflows: direct stock colors, Ronan formula colors, and makeable shop mixes.</p>
         <ol class="about-list">
           <li>Choose the background or panel color.</li>
           <li>Choose the main copy color from real historical options.</li>
           <li>Browse complete historical palettes.</li>
-          <li>View Ronan match and confidence notes.</li>
-          <li>Track owned Ronan paints locally.</li>
+          <li>View Ronan match and build notes.</li>
+          <li>Track owned stock cans locally.</li>
         </ol>
-        <p class="muted">Ronan mappings and swatches are working notes and should be tested before any public official release.</p>
+        <p class="muted">Ronan mappings, formulas, and swatches are working notes and should be tested before any public official release.</p>
       </section>
     </section>
   </main>

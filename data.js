@@ -4252,76 +4252,2092 @@ window.COLOR_ART_DATA = {
   },
   "ronanStock": [
     {
-      "name": "Black",
-      "code": "U021"
+      "name": "LIGHT YELLOW - U131",
+      "hex": "#EDE100",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Orange Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 57\u00b0, sat 100%, light 46%. yellow-orange hue. Nearest current UI swatches: Yellow, Gold, Orange Yellow.",
+      "kind": "stock"
     },
     {
-      "name": "White",
-      "code": "U101"
+      "name": "GOLDEN YELLOW - U135",
+      "hex": "#ECB800",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Orange Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 47\u00b0, sat 100%, light 46%. yellow-orange hue. Nearest current UI swatches: Yellow, Gold, Orange Yellow.",
+      "kind": "stock"
     },
     {
-      "name": "Cherry Red",
-      "code": "U104"
+      "name": "BRIGHT ORANGE - U125",
+      "hex": "#DA3D00",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "medium-dark vivid orange-red",
+      "canonicalFit": "Red Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 17\u00b0, sat 100%, light 43%. red-orange hue. Nearest current UI swatches: Vermillion, Terra Cotta, Orange Red.",
+      "kind": "stock"
     },
     {
-      "name": "Silver Metallic",
-      "code": "U105"
+      "name": "CHERRY RED - U104",
+      "hex": "#8C0000",
+      "hexFamily": "Red",
+      "hexDescription": "dark vivid red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 0\u00b0, sat 100%, light 27%. clear red. Nearest current UI swatches: Dark Red, Maroon, Medium Brown.",
+      "kind": "stock"
     },
     {
-      "name": "Carmine",
-      "code": "U106"
+      "name": "CARMINE - U106",
+      "hex": "#620400",
+      "hexFamily": "Red",
+      "hexDescription": "very dark vivid red",
+      "canonicalFit": "Dark Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 2\u00b0, sat 100%, light 19%. very dark red. Nearest current UI swatches: Dark Gray, Medium Brown, Maroon.",
+      "kind": "stock"
     },
     {
-      "name": "Imitation Gold",
-      "code": "U107"
+      "name": "AQUA - U149",
+      "hex": "#78CFC7",
+      "hexFamily": "Blue-Green",
+      "hexDescription": "light clear blue-green / turquoise",
+      "canonicalFit": "Light Greenish Blue",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 174\u00b0, sat 48%, light 64%. light blue-green. Nearest current UI swatches: Light Bright Blue, Light Greenish Blue, Soft Blue.",
+      "kind": "stock"
     },
     {
-      "name": "Gold Metallic",
-      "code": "U109"
+      "name": "PROCESS BLUE - U154",
+      "hex": "#1C46B6",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark strong blue",
+      "canonicalFit": "Bright Blue",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 224\u00b0, sat 73%, light 41%. strong saturated blue. Nearest current UI swatches: Ultramarine Blue, Blue, Bright Blue.",
+      "kind": "stock"
     },
     {
-      "name": "Ivory",
-      "code": "U116"
+      "name": "REFLEX BLUE - U155",
+      "hex": "#05073E",
+      "hexFamily": "Blue",
+      "hexDescription": "very dark vivid blue",
+      "canonicalFit": "Navy Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 238\u00b0, sat 85%, light 13%. near-black blue. Nearest current UI swatches: Navy Blue, Midnight Blue, Black.",
+      "kind": "stock"
     },
     {
-      "name": "Bright Orange",
-      "code": "U125"
+      "name": "PURPLE - U162",
+      "hex": "#230929",
+      "hexFamily": "Purple",
+      "hexDescription": "near-black clear purple",
+      "canonicalFit": "Dark Lavender",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 289\u00b0, sat 64%, light 10%. very dark purple. Nearest current UI swatches: Black, Navy Blue, Dark Gray.",
+      "kind": "stock"
     },
     {
-      "name": "Light Yellow",
-      "code": "U131"
+      "name": "MAGENTA -U166",
+      "hex": "#AB1441",
+      "hexFamily": "Rose-Red",
+      "hexDescription": "medium-dark strong rose-red",
+      "canonicalFit": "Magenta Red",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 342\u00b0, sat 79%, light 37%. red with magenta/rose cast. Nearest current UI swatches: Dark Red, Red, Old Rose.",
+      "kind": "stock"
     },
     {
-      "name": "Golden Yellow",
-      "code": "U135"
+      "name": "LIGHT GREEN - U140",
+      "hex": "#6D9600",
+      "hexFamily": "Yellow",
+      "hexDescription": "dark vivid yellow",
+      "canonicalFit": "Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 76\u00b0, sat 100%, light 29%. yellow hue. Nearest current UI swatches: Bright Green, Brown, Brownish Green.",
+      "kind": "stock"
     },
     {
-      "name": "Light Green",
-      "code": "U140"
+      "name": "MEDIUM GREEN - U144",
+      "hex": "#113D10",
+      "hexFamily": "Green",
+      "hexDescription": "very dark clear green",
+      "canonicalFit": "Dark Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 119\u00b0, sat 58%, light 15%. dark green. Nearest current UI swatches: Black, Dark Gray, Navy Blue.",
+      "kind": "stock"
     },
     {
-      "name": "Medium Green",
-      "code": "U144"
+      "name": "IMITATION GOLD - U107",
+      "hex": "#BE9800",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 48\u00b0, sat 100%, light 37%. dark warm hue reads as brown. Nearest current UI swatches: Dark Yellow, Orange, Gold.",
+      "kind": "stock"
     },
     {
-      "name": "Aqua",
-      "code": "U149"
+      "name": "IVORY - U116",
+      "hex": "#ECE3B0",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "pale clear golden yellow",
+      "canonicalFit": "Light Yellow",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 51\u00b0, sat 61%, light 81%. light golden yellow. Nearest current UI swatches: Light Yellow Cream, Cream, Light Orange.",
+      "kind": "stock"
     },
     {
-      "name": "Process Blue",
-      "code": "U154"
+      "name": "BLACK -U021",
+      "hex": "",
+      "hexFamily": "Invalid / needs verification",
+      "hexDescription": "Invalid 6-digit hex; cannot analyze color reliably",
+      "canonicalFit": "",
+      "confidence": "Low",
+      "notes": "Hex value is not six valid hex digits. Recheck sampled value.",
+      "kind": "stock"
     },
     {
-      "name": "Reflex Blue",
-      "code": "U155"
+      "name": "WHITE -U101",
+      "hex": "#EAE9EE",
+      "hexFamily": "Neutral",
+      "hexDescription": "near-white muted white",
+      "canonicalFit": "White",
+      "confidence": "High",
+      "notes": "HSL approx: hue 252\u00b0, sat 13%, light 92%. hex reads as near-white neutral. Nearest current UI swatches: White, Cream, Light Gray.",
+      "kind": "stock"
     },
     {
-      "name": "Purple",
-      "code": "U162"
+      "name": "GOLD METALLIC - U109",
+      "hex": "#9B6700",
+      "hexFamily": "Orange",
+      "hexDescription": "dark vivid orange",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 40\u00b0, sat 100%, light 30%. dark warm hue reads as brown. Nearest current UI swatches: Terra Cotta, Reddish Brown, Red.",
+      "kind": "stock"
     },
     {
-      "name": "Magenta",
-      "code": "U166"
+      "name": "SILVER METALLIC - U105",
+      "hex": "#6D707D",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark neutral blue",
+      "canonicalFit": "Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 229\u00b0, sat 7%, light 46%. medium blue. Nearest current UI swatches: Slate Gray, Lavender, Dark Lavender.",
+      "kind": "stock"
     }
-  ]
+  ],
+  "ronanFormulas": [
+    {
+      "name": "DARK BLUE",
+      "hex": "",
+      "hexFamily": "Invalid / needs verification",
+      "hexDescription": "Invalid 6-digit hex; cannot analyze color reliably",
+      "canonicalFit": "",
+      "confidence": "Low",
+      "notes": "Hex value is not six valid hex digits. Recheck sampled value.",
+      "kind": "formula"
+    },
+    {
+      "name": "BRILLIANT BLUE",
+      "hex": "#090B40",
+      "hexFamily": "Blue",
+      "hexDescription": "very dark strong blue",
+      "canonicalFit": "Navy Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 238\u00b0, sat 75%, light 14%. near-black blue. Nearest current UI swatches: Navy Blue, Midnight Blue, Black.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT BLUE",
+      "hex": "#152CB1",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark strong blue",
+      "canonicalFit": "Bright Blue",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 231\u00b0, sat 79%, light 39%. strong saturated blue. Nearest current UI swatches: Ultramarine Blue, Dark Blue, Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "TURQUOISE",
+      "hex": "#3684C3",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark clear blue",
+      "canonicalFit": "Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 207\u00b0, sat 57%, light 49%. medium blue. Nearest current UI swatches: Bright Blue, Blue, Blue Violet.",
+      "kind": "formula"
+    },
+    {
+      "name": "SPRUCE GREEN",
+      "hex": "#204F4E",
+      "hexFamily": "Blue-Green",
+      "hexDescription": "very dark clear blue-green / turquoise",
+      "canonicalFit": "Blue Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 179\u00b0, sat 42%, light 22%. dark blue-green/teal. Nearest current UI swatches: Dark Green, Midnight Blue, Slate.",
+      "kind": "formula"
+    },
+    {
+      "name": "TEAL",
+      "hex": "#31848D",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark clear blue",
+      "canonicalFit": "Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 186\u00b0, sat 48%, light 37%. medium blue. Nearest current UI swatches: Greenish Blue, Blue Green, Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "ROBIN EGG BLUE",
+      "hex": "#6ECCBC",
+      "hexFamily": "Blue-Green",
+      "hexDescription": "medium clear blue-green / turquoise",
+      "canonicalFit": "Light Greenish Blue",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 170\u00b0, sat 48%, light 62%. light blue-green. Nearest current UI swatches: Turquoise, Light Cold Bluish Green, Soft Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "PEACOCK BLUE",
+      "hex": "#5DB0C8",
+      "hexFamily": "Blue",
+      "hexDescription": "medium clear blue",
+      "canonicalFit": "Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 193\u00b0, sat 49%, light 57%. medium blue. Nearest current UI swatches: Turquoise Blue, Turquoise, Light Bright Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "DARK GREEN",
+      "hex": "#102D16",
+      "hexFamily": "Green",
+      "hexDescription": "near-black clear green",
+      "canonicalFit": "Dark Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 132\u00b0, sat 48%, light 12%. dark green. Nearest current UI swatches: Black, Navy Blue, Dark Gray.",
+      "kind": "formula"
+    },
+    {
+      "name": "EMERALD GREEN",
+      "hex": "#1D5A1E",
+      "hexFamily": "Green",
+      "hexDescription": "dark clear green",
+      "canonicalFit": "Dark Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 121\u00b0, sat 51%, light 23%. dark green. Nearest current UI swatches: Dark Green, Dark Gray, Black.",
+      "kind": "formula"
+    },
+    {
+      "name": "PROCESS GREEN",
+      "hex": "#1B5343",
+      "hexFamily": "Blue-Green",
+      "hexDescription": "very dark clear blue-green / turquoise",
+      "canonicalFit": "Blue Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 163\u00b0, sat 51%, light 22%. dark blue-green/teal. Nearest current UI swatches: Dark Green, Dark Gray, Midnight Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "FRENCH GREEN",
+      "hex": "#88B862",
+      "hexFamily": "Green",
+      "hexDescription": "medium soft green",
+      "canonicalFit": "Light Yellow Green",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 93\u00b0, sat 38%, light 55%. light yellow-green. Nearest current UI swatches: Pea Green, Yellowish Green, Bright Light Green.",
+      "kind": "formula"
+    },
+    {
+      "name": "KELLY GREEN",
+      "hex": "#226300",
+      "hexFamily": "Green",
+      "hexDescription": "very dark vivid green",
+      "canonicalFit": "Dark Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 99\u00b0, sat 100%, light 19%. dark green. Nearest current UI swatches: Dark Gray, Dark Green, Black.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIME GREEN",
+      "hex": "#C8CA00",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Gold",
+      "confidence": "High",
+      "notes": "HSL approx: hue 61\u00b0, sat 100%, light 40%. golden yellow-orange. Nearest current UI swatches: Yellow, Gold, Orange Yellow.",
+      "kind": "formula"
+    },
+    {
+      "name": "MEDIUM LEMON YELLOW",
+      "hex": "#EFC500",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Orange Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 49\u00b0, sat 100%, light 47%. yellow-orange hue. Nearest current UI swatches: Yellow, Gold, Orange Yellow.",
+      "kind": "formula"
+    },
+    {
+      "name": "PROCESS YELLOW",
+      "hex": "#E6DC24",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium strong golden yellow",
+      "canonicalFit": "Orange Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 57\u00b0, sat 80%, light 52%. yellow-orange hue. Nearest current UI swatches: Yellow, Corn, Orange Yellow.",
+      "kind": "formula"
+    },
+    {
+      "name": "HUGGER ORANGE",
+      "hex": "#A12600",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "dark vivid orange-red",
+      "canonicalFit": "Red Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 14\u00b0, sat 100%, light 32%. dark warm red-orange reads as red-brown. Nearest current UI swatches: Red, Dark Red, Vermillion.",
+      "kind": "formula"
+    },
+    {
+      "name": "RED ORANGE",
+      "hex": "#B61A00",
+      "hexFamily": "Red",
+      "hexDescription": "medium-dark vivid red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 9\u00b0, sat 100%, light 36%. clear red. Nearest current UI swatches: Vermillion, Red, Dark Red.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT ORANGE",
+      "hex": "#DC7200",
+      "hexFamily": "Orange",
+      "hexDescription": "medium-dark vivid orange",
+      "canonicalFit": "Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 31\u00b0, sat 100%, light 43%. orange hue. Nearest current UI swatches: Orange, Orange Red, Terra Cotta.",
+      "kind": "formula"
+    },
+    {
+      "name": "TANGERINE",
+      "hex": "#EC8400",
+      "hexFamily": "Orange",
+      "hexDescription": "medium-dark vivid orange",
+      "canonicalFit": "Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 34\u00b0, sat 100%, light 46%. orange hue. Nearest current UI swatches: Orange, Yellow Orange, Gold.",
+      "kind": "formula"
+    },
+    {
+      "name": "MAROON",
+      "hex": "#3C0607",
+      "hexFamily": "Red",
+      "hexDescription": "very dark strong red",
+      "canonicalFit": "Dark Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 359\u00b0, sat 82%, light 13%. very dark red. Nearest current UI swatches: Black, Dark Gray, Navy Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "RASPBERRY RED",
+      "hex": "#680302",
+      "hexFamily": "Red",
+      "hexDescription": "very dark vivid red",
+      "canonicalFit": "Dark Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 1\u00b0, sat 96%, light 21%. very dark red. Nearest current UI swatches: Medium Brown, Dark Gray, Maroon.",
+      "kind": "formula"
+    },
+    {
+      "name": "RUBY RED",
+      "hex": "#9E2121",
+      "hexFamily": "Red",
+      "hexDescription": "medium-dark strong red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 0\u00b0, sat 65%, light 37%. clear red. Nearest current UI swatches: Dark Red, Red, Vermillion.",
+      "kind": "formula"
+    },
+    {
+      "name": "SCARLET/FIRE RED",
+      "hex": "#A70D00",
+      "hexFamily": "Red",
+      "hexDescription": "dark vivid red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 5\u00b0, sat 100%, light 33%. clear red. Nearest current UI swatches: Dark Red, Red, Vermillion.",
+      "kind": "formula"
+    },
+    {
+      "name": "DARK MAGENTA",
+      "hex": "#7A094A",
+      "hexFamily": "Magenta",
+      "hexDescription": "dark vivid magenta",
+      "canonicalFit": "Dark Rose",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 325\u00b0, sat 86%, light 26%. dark magenta reads close to dark rose. Nearest current UI swatches: Maroon, Dark Red, Medium Brown.",
+      "kind": "formula"
+    },
+    {
+      "name": "PROCESS PURPLE",
+      "hex": "#794A7C",
+      "hexFamily": "Purple",
+      "hexDescription": "medium-dark soft purple",
+      "canonicalFit": "Purple",
+      "confidence": "High",
+      "notes": "HSL approx: hue 296\u00b0, sat 25%, light 39%. purple hue. Nearest current UI swatches: Dark Lavender, Dark Rose, Purple.",
+      "kind": "formula"
+    },
+    {
+      "name": "BUBBLE GUM PINK",
+      "hex": "#E07BA8",
+      "hexFamily": "Rose-Red",
+      "hexDescription": "light clear rose-red",
+      "canonicalFit": "Pink",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 333\u00b0, sat 62%, light 68%. light rose-red. Nearest current UI swatches: Pink, Light Rose, Salmon Pink.",
+      "kind": "formula"
+    },
+    {
+      "name": "CORAL",
+      "hex": "#E57E56",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "medium strong orange-red",
+      "canonicalFit": "Red Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 17\u00b0, sat 73%, light 62%. red-orange hue. Nearest current UI swatches: Salmon, Yellow Orange, Red Orange.",
+      "kind": "formula"
+    },
+    {
+      "name": "VIOLET",
+      "hex": "#1C103C",
+      "hexFamily": "Blue-Violet",
+      "hexDescription": "very dark clear blue-violet",
+      "canonicalFit": "Blue Violet",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 256\u00b0, sat 58%, light 15%. dark blue-violet. Nearest current UI swatches: Black, Midnight Blue, Navy Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT PURPLE",
+      "hex": "#7D529B",
+      "hexFamily": "Purple",
+      "hexDescription": "medium-dark soft purple",
+      "canonicalFit": "Purple",
+      "confidence": "High",
+      "notes": "HSL approx: hue 275\u00b0, sat 31%, light 46%. purple hue. Nearest current UI swatches: Purple, Blue Purple, Lavender.",
+      "kind": "formula"
+    },
+    {
+      "name": "PERRYWINKLE",
+      "hex": "#8F93DD",
+      "hexFamily": "Blue",
+      "hexDescription": "light clear blue",
+      "canonicalFit": "Light Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 237\u00b0, sat 53%, light 71%. light blue. Nearest current UI swatches: Light Bright Blue, Soft Blue, Light Greenish Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "BABY BLUE",
+      "hex": "#B0C6F1",
+      "hexFamily": "Blue",
+      "hexDescription": "pale strong blue",
+      "canonicalFit": "Pale Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 220\u00b0, sat 70%, light 82%. pale blue. Nearest current UI swatches: Light Blue, Soft Light Blue, Pale Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "LETTERING WHITE",
+      "hex": "#E3E4E8",
+      "hexFamily": "Neutral",
+      "hexDescription": "pale muted white",
+      "canonicalFit": "White",
+      "confidence": "High",
+      "notes": "HSL approx: hue 228\u00b0, sat 10%, light 90%. hex reads as near-white neutral. Nearest current UI swatches: White, Light Gray, Cream.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT GRAY",
+      "hex": "#9396A1",
+      "hexFamily": "Blue",
+      "hexDescription": "medium neutral blue",
+      "canonicalFit": "Light Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 227\u00b0, sat 7%, light 60%. light blue. Nearest current UI swatches: Greenish Cream, Dull Gray, Pale Gray.",
+      "kind": "formula"
+    },
+    {
+      "name": "MEDIUM GRAY",
+      "hex": "#5F6064",
+      "hexFamily": "Neutral",
+      "hexDescription": "medium-dark neutral gray",
+      "canonicalFit": "Medium Gray",
+      "confidence": "High",
+      "notes": "HSL approx: hue 228\u00b0, sat 3%, light 38%. hex reads as medium neutral gray. Nearest current UI swatches: Dark Lavender, Slate Color, Slate.",
+      "kind": "formula"
+    },
+    {
+      "name": "DARK GRAY",
+      "hex": "#393A3E",
+      "hexFamily": "Neutral",
+      "hexDescription": "dark neutral gray",
+      "canonicalFit": "Dark Gray",
+      "confidence": "High",
+      "notes": "HSL approx: hue 228\u00b0, sat 4%, light 23%. hex reads as dark neutral gray. Nearest current UI swatches: Dark Green, Dark Gray, Midnight Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "DARK BROWN",
+      "hex": "#341B13",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "very dark clear orange-red",
+      "canonicalFit": "Red Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 15\u00b0, sat 46%, light 14%. dark warm red-orange reads as red-brown. Nearest current UI swatches: Dark Gray, Black, Navy Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "MEDIUM BROWN",
+      "hex": "#3F241B",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "very dark soft orange-red",
+      "canonicalFit": "Red Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 15\u00b0, sat 40%, light 18%. dark warm red-orange reads as red-brown. Nearest current UI swatches: Dark Gray, Black, Dark Green.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT BROWN",
+      "hex": "#643E28",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "dark clear orange-red",
+      "canonicalFit": "Red Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 22\u00b0, sat 43%, light 27%. dark warm red-orange reads as red-brown. Nearest current UI swatches: Medium Brown, Dark Brown, Maroon.",
+      "kind": "formula"
+    },
+    {
+      "name": "VANILLA BEAN",
+      "hex": "#F3EBE4",
+      "hexFamily": "Orange",
+      "hexDescription": "near-white soft orange",
+      "canonicalFit": "Light Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 28\u00b0, sat 38%, light 92%. light orange. Nearest current UI swatches: White, Cream, Light Gray.",
+      "kind": "formula"
+    },
+    {
+      "name": "MILITARY GREEN",
+      "hex": "#2B2F07",
+      "hexFamily": "Yellow",
+      "hexDescription": "near-black strong yellow",
+      "canonicalFit": "Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 66\u00b0, sat 74%, light 11%. yellow hue. Nearest current UI swatches: Dark Gray, Black, Navy Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "KHAKI GREEN",
+      "hex": "#716021",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "dark clear golden yellow",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 47\u00b0, sat 55%, light 29%. dark warm hue reads as brown. Nearest current UI swatches: Dark Brown, Medium Brown, Reddish Brown.",
+      "kind": "formula"
+    },
+    {
+      "name": "OLD GOLD",
+      "hex": "#A07600",
+      "hexFamily": "Orange",
+      "hexDescription": "dark vivid orange",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 44\u00b0, sat 100%, light 31%. dark warm hue reads as brown. Nearest current UI swatches: Terra Cotta, Dark Yellow, Shellac.",
+      "kind": "formula"
+    },
+    {
+      "name": "CAMEL",
+      "hex": "#C9941F",
+      "hexFamily": "Orange",
+      "hexDescription": "medium-dark strong orange",
+      "canonicalFit": "Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 41\u00b0, sat 73%, light 45%. orange hue. Nearest current UI swatches: Dark Yellow, Orange, Yellow Orange.",
+      "kind": "formula"
+    },
+    {
+      "name": "GUNMETAL METALLIC",
+      "hex": "#4B4747",
+      "hexFamily": "Neutral",
+      "hexDescription": "dark neutral gray",
+      "canonicalFit": "Dark Gray",
+      "confidence": "High",
+      "notes": "HSL approx: hue 0\u00b0, sat 3%, light 29%. hex reads as dark neutral gray. Nearest current UI swatches: Dark Green, Slate Color, Dark Brown.",
+      "kind": "formula"
+    },
+    {
+      "name": "COPPER METALLIC",
+      "hex": "#62261C",
+      "hexFamily": "Red",
+      "hexDescription": "dark clear red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 9\u00b0, sat 56%, light 25%. clear red. Nearest current UI swatches: Medium Brown, Dark Brown, Maroon.",
+      "kind": "formula"
+    },
+    {
+      "name": "BRONZE METALLIC",
+      "hex": "#AA5400",
+      "hexFamily": "Orange",
+      "hexDescription": "dark vivid orange",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 30\u00b0, sat 100%, light 33%. dark warm hue reads as brown. Nearest current UI swatches: Terra Cotta, Vermillion, Red.",
+      "kind": "formula"
+    },
+    {
+      "name": "PLATINUM METALLIC",
+      "hex": "#76736B",
+      "hexFamily": "Orange",
+      "hexDescription": "medium-dark neutral orange",
+      "canonicalFit": "Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 44\u00b0, sat 5%, light 44%. orange hue. Nearest current UI swatches: Dull Green, Lavender, Slate Gray.",
+      "kind": "formula"
+    }
+  ],
+  "ronanColors": [
+    {
+      "name": "LIGHT YELLOW - U131",
+      "hex": "#EDE100",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Orange Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 57\u00b0, sat 100%, light 46%. yellow-orange hue. Nearest current UI swatches: Yellow, Gold, Orange Yellow.",
+      "kind": "stock"
+    },
+    {
+      "name": "GOLDEN YELLOW - U135",
+      "hex": "#ECB800",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Orange Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 47\u00b0, sat 100%, light 46%. yellow-orange hue. Nearest current UI swatches: Yellow, Gold, Orange Yellow.",
+      "kind": "stock"
+    },
+    {
+      "name": "BRIGHT ORANGE - U125",
+      "hex": "#DA3D00",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "medium-dark vivid orange-red",
+      "canonicalFit": "Red Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 17\u00b0, sat 100%, light 43%. red-orange hue. Nearest current UI swatches: Vermillion, Terra Cotta, Orange Red.",
+      "kind": "stock"
+    },
+    {
+      "name": "CHERRY RED - U104",
+      "hex": "#8C0000",
+      "hexFamily": "Red",
+      "hexDescription": "dark vivid red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 0\u00b0, sat 100%, light 27%. clear red. Nearest current UI swatches: Dark Red, Maroon, Medium Brown.",
+      "kind": "stock"
+    },
+    {
+      "name": "CARMINE - U106",
+      "hex": "#620400",
+      "hexFamily": "Red",
+      "hexDescription": "very dark vivid red",
+      "canonicalFit": "Dark Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 2\u00b0, sat 100%, light 19%. very dark red. Nearest current UI swatches: Dark Gray, Medium Brown, Maroon.",
+      "kind": "stock"
+    },
+    {
+      "name": "AQUA - U149",
+      "hex": "#78CFC7",
+      "hexFamily": "Blue-Green",
+      "hexDescription": "light clear blue-green / turquoise",
+      "canonicalFit": "Light Greenish Blue",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 174\u00b0, sat 48%, light 64%. light blue-green. Nearest current UI swatches: Light Bright Blue, Light Greenish Blue, Soft Blue.",
+      "kind": "stock"
+    },
+    {
+      "name": "PROCESS BLUE - U154",
+      "hex": "#1C46B6",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark strong blue",
+      "canonicalFit": "Bright Blue",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 224\u00b0, sat 73%, light 41%. strong saturated blue. Nearest current UI swatches: Ultramarine Blue, Blue, Bright Blue.",
+      "kind": "stock"
+    },
+    {
+      "name": "REFLEX BLUE - U155",
+      "hex": "#05073E",
+      "hexFamily": "Blue",
+      "hexDescription": "very dark vivid blue",
+      "canonicalFit": "Navy Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 238\u00b0, sat 85%, light 13%. near-black blue. Nearest current UI swatches: Navy Blue, Midnight Blue, Black.",
+      "kind": "stock"
+    },
+    {
+      "name": "PURPLE - U162",
+      "hex": "#230929",
+      "hexFamily": "Purple",
+      "hexDescription": "near-black clear purple",
+      "canonicalFit": "Dark Lavender",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 289\u00b0, sat 64%, light 10%. very dark purple. Nearest current UI swatches: Black, Navy Blue, Dark Gray.",
+      "kind": "stock"
+    },
+    {
+      "name": "MAGENTA -U166",
+      "hex": "#AB1441",
+      "hexFamily": "Rose-Red",
+      "hexDescription": "medium-dark strong rose-red",
+      "canonicalFit": "Magenta Red",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 342\u00b0, sat 79%, light 37%. red with magenta/rose cast. Nearest current UI swatches: Dark Red, Red, Old Rose.",
+      "kind": "stock"
+    },
+    {
+      "name": "LIGHT GREEN - U140",
+      "hex": "#6D9600",
+      "hexFamily": "Yellow",
+      "hexDescription": "dark vivid yellow",
+      "canonicalFit": "Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 76\u00b0, sat 100%, light 29%. yellow hue. Nearest current UI swatches: Bright Green, Brown, Brownish Green.",
+      "kind": "stock"
+    },
+    {
+      "name": "MEDIUM GREEN - U144",
+      "hex": "#113D10",
+      "hexFamily": "Green",
+      "hexDescription": "very dark clear green",
+      "canonicalFit": "Dark Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 119\u00b0, sat 58%, light 15%. dark green. Nearest current UI swatches: Black, Dark Gray, Navy Blue.",
+      "kind": "stock"
+    },
+    {
+      "name": "IMITATION GOLD - U107",
+      "hex": "#BE9800",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 48\u00b0, sat 100%, light 37%. dark warm hue reads as brown. Nearest current UI swatches: Dark Yellow, Orange, Gold.",
+      "kind": "stock"
+    },
+    {
+      "name": "IVORY - U116",
+      "hex": "#ECE3B0",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "pale clear golden yellow",
+      "canonicalFit": "Light Yellow",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 51\u00b0, sat 61%, light 81%. light golden yellow. Nearest current UI swatches: Light Yellow Cream, Cream, Light Orange.",
+      "kind": "stock"
+    },
+    {
+      "name": "BLACK -U021",
+      "hex": "",
+      "hexFamily": "Invalid / needs verification",
+      "hexDescription": "Invalid 6-digit hex; cannot analyze color reliably",
+      "canonicalFit": "",
+      "confidence": "Low",
+      "notes": "Hex value is not six valid hex digits. Recheck sampled value.",
+      "kind": "stock"
+    },
+    {
+      "name": "WHITE -U101",
+      "hex": "#EAE9EE",
+      "hexFamily": "Neutral",
+      "hexDescription": "near-white muted white",
+      "canonicalFit": "White",
+      "confidence": "High",
+      "notes": "HSL approx: hue 252\u00b0, sat 13%, light 92%. hex reads as near-white neutral. Nearest current UI swatches: White, Cream, Light Gray.",
+      "kind": "stock"
+    },
+    {
+      "name": "GOLD METALLIC - U109",
+      "hex": "#9B6700",
+      "hexFamily": "Orange",
+      "hexDescription": "dark vivid orange",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 40\u00b0, sat 100%, light 30%. dark warm hue reads as brown. Nearest current UI swatches: Terra Cotta, Reddish Brown, Red.",
+      "kind": "stock"
+    },
+    {
+      "name": "SILVER METALLIC - U105",
+      "hex": "#6D707D",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark neutral blue",
+      "canonicalFit": "Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 229\u00b0, sat 7%, light 46%. medium blue. Nearest current UI swatches: Slate Gray, Lavender, Dark Lavender.",
+      "kind": "stock"
+    },
+    {
+      "name": "DARK BLUE",
+      "hex": "",
+      "hexFamily": "Invalid / needs verification",
+      "hexDescription": "Invalid 6-digit hex; cannot analyze color reliably",
+      "canonicalFit": "",
+      "confidence": "Low",
+      "notes": "Hex value is not six valid hex digits. Recheck sampled value.",
+      "kind": "formula"
+    },
+    {
+      "name": "BRILLIANT BLUE",
+      "hex": "#090B40",
+      "hexFamily": "Blue",
+      "hexDescription": "very dark strong blue",
+      "canonicalFit": "Navy Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 238\u00b0, sat 75%, light 14%. near-black blue. Nearest current UI swatches: Navy Blue, Midnight Blue, Black.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT BLUE",
+      "hex": "#152CB1",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark strong blue",
+      "canonicalFit": "Bright Blue",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 231\u00b0, sat 79%, light 39%. strong saturated blue. Nearest current UI swatches: Ultramarine Blue, Dark Blue, Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "TURQUOISE",
+      "hex": "#3684C3",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark clear blue",
+      "canonicalFit": "Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 207\u00b0, sat 57%, light 49%. medium blue. Nearest current UI swatches: Bright Blue, Blue, Blue Violet.",
+      "kind": "formula"
+    },
+    {
+      "name": "SPRUCE GREEN",
+      "hex": "#204F4E",
+      "hexFamily": "Blue-Green",
+      "hexDescription": "very dark clear blue-green / turquoise",
+      "canonicalFit": "Blue Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 179\u00b0, sat 42%, light 22%. dark blue-green/teal. Nearest current UI swatches: Dark Green, Midnight Blue, Slate.",
+      "kind": "formula"
+    },
+    {
+      "name": "TEAL",
+      "hex": "#31848D",
+      "hexFamily": "Blue",
+      "hexDescription": "medium-dark clear blue",
+      "canonicalFit": "Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 186\u00b0, sat 48%, light 37%. medium blue. Nearest current UI swatches: Greenish Blue, Blue Green, Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "ROBIN EGG BLUE",
+      "hex": "#6ECCBC",
+      "hexFamily": "Blue-Green",
+      "hexDescription": "medium clear blue-green / turquoise",
+      "canonicalFit": "Light Greenish Blue",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 170\u00b0, sat 48%, light 62%. light blue-green. Nearest current UI swatches: Turquoise, Light Cold Bluish Green, Soft Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "PEACOCK BLUE",
+      "hex": "#5DB0C8",
+      "hexFamily": "Blue",
+      "hexDescription": "medium clear blue",
+      "canonicalFit": "Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 193\u00b0, sat 49%, light 57%. medium blue. Nearest current UI swatches: Turquoise Blue, Turquoise, Light Bright Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "DARK GREEN",
+      "hex": "#102D16",
+      "hexFamily": "Green",
+      "hexDescription": "near-black clear green",
+      "canonicalFit": "Dark Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 132\u00b0, sat 48%, light 12%. dark green. Nearest current UI swatches: Black, Navy Blue, Dark Gray.",
+      "kind": "formula"
+    },
+    {
+      "name": "EMERALD GREEN",
+      "hex": "#1D5A1E",
+      "hexFamily": "Green",
+      "hexDescription": "dark clear green",
+      "canonicalFit": "Dark Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 121\u00b0, sat 51%, light 23%. dark green. Nearest current UI swatches: Dark Green, Dark Gray, Black.",
+      "kind": "formula"
+    },
+    {
+      "name": "PROCESS GREEN",
+      "hex": "#1B5343",
+      "hexFamily": "Blue-Green",
+      "hexDescription": "very dark clear blue-green / turquoise",
+      "canonicalFit": "Blue Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 163\u00b0, sat 51%, light 22%. dark blue-green/teal. Nearest current UI swatches: Dark Green, Dark Gray, Midnight Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "FRENCH GREEN",
+      "hex": "#88B862",
+      "hexFamily": "Green",
+      "hexDescription": "medium soft green",
+      "canonicalFit": "Light Yellow Green",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 93\u00b0, sat 38%, light 55%. light yellow-green. Nearest current UI swatches: Pea Green, Yellowish Green, Bright Light Green.",
+      "kind": "formula"
+    },
+    {
+      "name": "KELLY GREEN",
+      "hex": "#226300",
+      "hexFamily": "Green",
+      "hexDescription": "very dark vivid green",
+      "canonicalFit": "Dark Green",
+      "confidence": "High",
+      "notes": "HSL approx: hue 99\u00b0, sat 100%, light 19%. dark green. Nearest current UI swatches: Dark Gray, Dark Green, Black.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIME GREEN",
+      "hex": "#C8CA00",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Gold",
+      "confidence": "High",
+      "notes": "HSL approx: hue 61\u00b0, sat 100%, light 40%. golden yellow-orange. Nearest current UI swatches: Yellow, Gold, Orange Yellow.",
+      "kind": "formula"
+    },
+    {
+      "name": "MEDIUM LEMON YELLOW",
+      "hex": "#EFC500",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium-dark vivid golden yellow",
+      "canonicalFit": "Orange Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 49\u00b0, sat 100%, light 47%. yellow-orange hue. Nearest current UI swatches: Yellow, Gold, Orange Yellow.",
+      "kind": "formula"
+    },
+    {
+      "name": "PROCESS YELLOW",
+      "hex": "#E6DC24",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "medium strong golden yellow",
+      "canonicalFit": "Orange Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 57\u00b0, sat 80%, light 52%. yellow-orange hue. Nearest current UI swatches: Yellow, Corn, Orange Yellow.",
+      "kind": "formula"
+    },
+    {
+      "name": "HUGGER ORANGE",
+      "hex": "#A12600",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "dark vivid orange-red",
+      "canonicalFit": "Red Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 14\u00b0, sat 100%, light 32%. dark warm red-orange reads as red-brown. Nearest current UI swatches: Red, Dark Red, Vermillion.",
+      "kind": "formula"
+    },
+    {
+      "name": "RED ORANGE",
+      "hex": "#B61A00",
+      "hexFamily": "Red",
+      "hexDescription": "medium-dark vivid red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 9\u00b0, sat 100%, light 36%. clear red. Nearest current UI swatches: Vermillion, Red, Dark Red.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT ORANGE",
+      "hex": "#DC7200",
+      "hexFamily": "Orange",
+      "hexDescription": "medium-dark vivid orange",
+      "canonicalFit": "Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 31\u00b0, sat 100%, light 43%. orange hue. Nearest current UI swatches: Orange, Orange Red, Terra Cotta.",
+      "kind": "formula"
+    },
+    {
+      "name": "TANGERINE",
+      "hex": "#EC8400",
+      "hexFamily": "Orange",
+      "hexDescription": "medium-dark vivid orange",
+      "canonicalFit": "Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 34\u00b0, sat 100%, light 46%. orange hue. Nearest current UI swatches: Orange, Yellow Orange, Gold.",
+      "kind": "formula"
+    },
+    {
+      "name": "MAROON",
+      "hex": "#3C0607",
+      "hexFamily": "Red",
+      "hexDescription": "very dark strong red",
+      "canonicalFit": "Dark Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 359\u00b0, sat 82%, light 13%. very dark red. Nearest current UI swatches: Black, Dark Gray, Navy Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "RASPBERRY RED",
+      "hex": "#680302",
+      "hexFamily": "Red",
+      "hexDescription": "very dark vivid red",
+      "canonicalFit": "Dark Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 1\u00b0, sat 96%, light 21%. very dark red. Nearest current UI swatches: Medium Brown, Dark Gray, Maroon.",
+      "kind": "formula"
+    },
+    {
+      "name": "RUBY RED",
+      "hex": "#9E2121",
+      "hexFamily": "Red",
+      "hexDescription": "medium-dark strong red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 0\u00b0, sat 65%, light 37%. clear red. Nearest current UI swatches: Dark Red, Red, Vermillion.",
+      "kind": "formula"
+    },
+    {
+      "name": "SCARLET/FIRE RED",
+      "hex": "#A70D00",
+      "hexFamily": "Red",
+      "hexDescription": "dark vivid red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 5\u00b0, sat 100%, light 33%. clear red. Nearest current UI swatches: Dark Red, Red, Vermillion.",
+      "kind": "formula"
+    },
+    {
+      "name": "DARK MAGENTA",
+      "hex": "#7A094A",
+      "hexFamily": "Magenta",
+      "hexDescription": "dark vivid magenta",
+      "canonicalFit": "Dark Rose",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 325\u00b0, sat 86%, light 26%. dark magenta reads close to dark rose. Nearest current UI swatches: Maroon, Dark Red, Medium Brown.",
+      "kind": "formula"
+    },
+    {
+      "name": "PROCESS PURPLE",
+      "hex": "#794A7C",
+      "hexFamily": "Purple",
+      "hexDescription": "medium-dark soft purple",
+      "canonicalFit": "Purple",
+      "confidence": "High",
+      "notes": "HSL approx: hue 296\u00b0, sat 25%, light 39%. purple hue. Nearest current UI swatches: Dark Lavender, Dark Rose, Purple.",
+      "kind": "formula"
+    },
+    {
+      "name": "BUBBLE GUM PINK",
+      "hex": "#E07BA8",
+      "hexFamily": "Rose-Red",
+      "hexDescription": "light clear rose-red",
+      "canonicalFit": "Pink",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 333\u00b0, sat 62%, light 68%. light rose-red. Nearest current UI swatches: Pink, Light Rose, Salmon Pink.",
+      "kind": "formula"
+    },
+    {
+      "name": "CORAL",
+      "hex": "#E57E56",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "medium strong orange-red",
+      "canonicalFit": "Red Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 17\u00b0, sat 73%, light 62%. red-orange hue. Nearest current UI swatches: Salmon, Yellow Orange, Red Orange.",
+      "kind": "formula"
+    },
+    {
+      "name": "VIOLET",
+      "hex": "#1C103C",
+      "hexFamily": "Blue-Violet",
+      "hexDescription": "very dark clear blue-violet",
+      "canonicalFit": "Blue Violet",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 256\u00b0, sat 58%, light 15%. dark blue-violet. Nearest current UI swatches: Black, Midnight Blue, Navy Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT PURPLE",
+      "hex": "#7D529B",
+      "hexFamily": "Purple",
+      "hexDescription": "medium-dark soft purple",
+      "canonicalFit": "Purple",
+      "confidence": "High",
+      "notes": "HSL approx: hue 275\u00b0, sat 31%, light 46%. purple hue. Nearest current UI swatches: Purple, Blue Purple, Lavender.",
+      "kind": "formula"
+    },
+    {
+      "name": "PERRYWINKLE",
+      "hex": "#8F93DD",
+      "hexFamily": "Blue",
+      "hexDescription": "light clear blue",
+      "canonicalFit": "Light Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 237\u00b0, sat 53%, light 71%. light blue. Nearest current UI swatches: Light Bright Blue, Soft Blue, Light Greenish Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "BABY BLUE",
+      "hex": "#B0C6F1",
+      "hexFamily": "Blue",
+      "hexDescription": "pale strong blue",
+      "canonicalFit": "Pale Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 220\u00b0, sat 70%, light 82%. pale blue. Nearest current UI swatches: Light Blue, Soft Light Blue, Pale Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "LETTERING WHITE",
+      "hex": "#E3E4E8",
+      "hexFamily": "Neutral",
+      "hexDescription": "pale muted white",
+      "canonicalFit": "White",
+      "confidence": "High",
+      "notes": "HSL approx: hue 228\u00b0, sat 10%, light 90%. hex reads as near-white neutral. Nearest current UI swatches: White, Light Gray, Cream.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT GRAY",
+      "hex": "#9396A1",
+      "hexFamily": "Blue",
+      "hexDescription": "medium neutral blue",
+      "canonicalFit": "Light Blue",
+      "confidence": "High",
+      "notes": "HSL approx: hue 227\u00b0, sat 7%, light 60%. light blue. Nearest current UI swatches: Greenish Cream, Dull Gray, Pale Gray.",
+      "kind": "formula"
+    },
+    {
+      "name": "MEDIUM GRAY",
+      "hex": "#5F6064",
+      "hexFamily": "Neutral",
+      "hexDescription": "medium-dark neutral gray",
+      "canonicalFit": "Medium Gray",
+      "confidence": "High",
+      "notes": "HSL approx: hue 228\u00b0, sat 3%, light 38%. hex reads as medium neutral gray. Nearest current UI swatches: Dark Lavender, Slate Color, Slate.",
+      "kind": "formula"
+    },
+    {
+      "name": "DARK GRAY",
+      "hex": "#393A3E",
+      "hexFamily": "Neutral",
+      "hexDescription": "dark neutral gray",
+      "canonicalFit": "Dark Gray",
+      "confidence": "High",
+      "notes": "HSL approx: hue 228\u00b0, sat 4%, light 23%. hex reads as dark neutral gray. Nearest current UI swatches: Dark Green, Dark Gray, Midnight Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "DARK BROWN",
+      "hex": "#341B13",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "very dark clear orange-red",
+      "canonicalFit": "Red Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 15\u00b0, sat 46%, light 14%. dark warm red-orange reads as red-brown. Nearest current UI swatches: Dark Gray, Black, Navy Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "MEDIUM BROWN",
+      "hex": "#3F241B",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "very dark soft orange-red",
+      "canonicalFit": "Red Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 15\u00b0, sat 40%, light 18%. dark warm red-orange reads as red-brown. Nearest current UI swatches: Dark Gray, Black, Dark Green.",
+      "kind": "formula"
+    },
+    {
+      "name": "LIGHT BROWN",
+      "hex": "#643E28",
+      "hexFamily": "Red-Orange",
+      "hexDescription": "dark clear orange-red",
+      "canonicalFit": "Red Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 22\u00b0, sat 43%, light 27%. dark warm red-orange reads as red-brown. Nearest current UI swatches: Medium Brown, Dark Brown, Maroon.",
+      "kind": "formula"
+    },
+    {
+      "name": "VANILLA BEAN",
+      "hex": "#F3EBE4",
+      "hexFamily": "Orange",
+      "hexDescription": "near-white soft orange",
+      "canonicalFit": "Light Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 28\u00b0, sat 38%, light 92%. light orange. Nearest current UI swatches: White, Cream, Light Gray.",
+      "kind": "formula"
+    },
+    {
+      "name": "MILITARY GREEN",
+      "hex": "#2B2F07",
+      "hexFamily": "Yellow",
+      "hexDescription": "near-black strong yellow",
+      "canonicalFit": "Yellow",
+      "confidence": "High",
+      "notes": "HSL approx: hue 66\u00b0, sat 74%, light 11%. yellow hue. Nearest current UI swatches: Dark Gray, Black, Navy Blue.",
+      "kind": "formula"
+    },
+    {
+      "name": "KHAKI GREEN",
+      "hex": "#716021",
+      "hexFamily": "Yellow-Orange",
+      "hexDescription": "dark clear golden yellow",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 47\u00b0, sat 55%, light 29%. dark warm hue reads as brown. Nearest current UI swatches: Dark Brown, Medium Brown, Reddish Brown.",
+      "kind": "formula"
+    },
+    {
+      "name": "OLD GOLD",
+      "hex": "#A07600",
+      "hexFamily": "Orange",
+      "hexDescription": "dark vivid orange",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 44\u00b0, sat 100%, light 31%. dark warm hue reads as brown. Nearest current UI swatches: Terra Cotta, Dark Yellow, Shellac.",
+      "kind": "formula"
+    },
+    {
+      "name": "CAMEL",
+      "hex": "#C9941F",
+      "hexFamily": "Orange",
+      "hexDescription": "medium-dark strong orange",
+      "canonicalFit": "Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 41\u00b0, sat 73%, light 45%. orange hue. Nearest current UI swatches: Dark Yellow, Orange, Yellow Orange.",
+      "kind": "formula"
+    },
+    {
+      "name": "GUNMETAL METALLIC",
+      "hex": "#4B4747",
+      "hexFamily": "Neutral",
+      "hexDescription": "dark neutral gray",
+      "canonicalFit": "Dark Gray",
+      "confidence": "High",
+      "notes": "HSL approx: hue 0\u00b0, sat 3%, light 29%. hex reads as dark neutral gray. Nearest current UI swatches: Dark Green, Slate Color, Dark Brown.",
+      "kind": "formula"
+    },
+    {
+      "name": "COPPER METALLIC",
+      "hex": "#62261C",
+      "hexFamily": "Red",
+      "hexDescription": "dark clear red",
+      "canonicalFit": "Red",
+      "confidence": "High",
+      "notes": "HSL approx: hue 9\u00b0, sat 56%, light 25%. clear red. Nearest current UI swatches: Medium Brown, Dark Brown, Maroon.",
+      "kind": "formula"
+    },
+    {
+      "name": "BRONZE METALLIC",
+      "hex": "#AA5400",
+      "hexFamily": "Orange",
+      "hexDescription": "dark vivid orange",
+      "canonicalFit": "Medium Brown",
+      "confidence": "Medium",
+      "notes": "HSL approx: hue 30\u00b0, sat 100%, light 33%. dark warm hue reads as brown. Nearest current UI swatches: Terra Cotta, Vermillion, Red.",
+      "kind": "formula"
+    },
+    {
+      "name": "PLATINUM METALLIC",
+      "hex": "#76736B",
+      "hexFamily": "Orange",
+      "hexDescription": "medium-dark neutral orange",
+      "canonicalFit": "Orange",
+      "confidence": "High",
+      "notes": "HSL approx: hue 44\u00b0, sat 5%, light 44%. orange hue. Nearest current UI swatches: Dull Green, Lavender, Slate Gray.",
+      "kind": "formula"
+    }
+  ],
+  "colorBuilds": {
+    "Orange Yellow": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "LIGHT YELLOW - U131",
+        "hex": "#EDE100",
+        "confidence": "High",
+        "ingredients": [
+          "LIGHT YELLOW - U131"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark vivid golden yellow"
+      },
+      {
+        "type": "Direct stock can",
+        "ronanColor": "GOLDEN YELLOW - U135",
+        "hex": "#ECB800",
+        "confidence": "High",
+        "ingredients": [
+          "GOLDEN YELLOW - U135"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark vivid golden yellow"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "MEDIUM LEMON YELLOW",
+        "hex": "#EFC500",
+        "confidence": "High",
+        "ingredients": [
+          "MEDIUM LEMON YELLOW"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark vivid golden yellow"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "PROCESS YELLOW",
+        "hex": "#E6DC24",
+        "confidence": "High",
+        "ingredients": [
+          "PROCESS YELLOW"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium strong golden yellow"
+      }
+    ],
+    "Red Orange": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "BRIGHT ORANGE - U125",
+        "hex": "#DA3D00",
+        "confidence": "High",
+        "ingredients": [
+          "BRIGHT ORANGE - U125"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark vivid orange-red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "CORAL",
+        "hex": "#E57E56",
+        "confidence": "High",
+        "ingredients": [
+          "CORAL"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium strong orange-red"
+      }
+    ],
+    "Red": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "CHERRY RED - U104",
+        "hex": "#8C0000",
+        "confidence": "High",
+        "ingredients": [
+          "CHERRY RED - U104"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark vivid red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "RED ORANGE",
+        "hex": "#B61A00",
+        "confidence": "High",
+        "ingredients": [
+          "RED ORANGE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark vivid red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "RUBY RED",
+        "hex": "#9E2121",
+        "confidence": "High",
+        "ingredients": [
+          "RUBY RED"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark strong red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "SCARLET/FIRE RED",
+        "hex": "#A70D00",
+        "confidence": "High",
+        "ingredients": [
+          "SCARLET/FIRE RED"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark vivid red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "COPPER METALLIC",
+        "hex": "#62261C",
+        "confidence": "High",
+        "ingredients": [
+          "COPPER METALLIC"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark clear red"
+      }
+    ],
+    "Dark Red": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "CARMINE - U106",
+        "hex": "#620400",
+        "confidence": "High",
+        "ingredients": [
+          "CARMINE - U106"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark vivid red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "MAROON",
+        "hex": "#3C0607",
+        "confidence": "High",
+        "ingredients": [
+          "MAROON"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark strong red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "RASPBERRY RED",
+        "hex": "#680302",
+        "confidence": "High",
+        "ingredients": [
+          "RASPBERRY RED"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark vivid red"
+      }
+    ],
+    "Light Greenish Blue": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "AQUA - U149",
+        "hex": "#78CFC7",
+        "confidence": "Medium",
+        "ingredients": [
+          "AQUA - U149"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "light clear blue-green / turquoise"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "ROBIN EGG BLUE",
+        "hex": "#6ECCBC",
+        "confidence": "Medium",
+        "ingredients": [
+          "ROBIN EGG BLUE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium clear blue-green / turquoise"
+      }
+    ],
+    "Bright Blue": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "PROCESS BLUE - U154",
+        "hex": "#1C46B6",
+        "confidence": "Medium",
+        "ingredients": [
+          "PROCESS BLUE - U154"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark strong blue"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "LIGHT BLUE",
+        "hex": "#152CB1",
+        "confidence": "Medium",
+        "ingredients": [
+          "LIGHT BLUE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark strong blue"
+      }
+    ],
+    "Navy Blue": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "REFLEX BLUE - U155",
+        "hex": "#05073E",
+        "confidence": "High",
+        "ingredients": [
+          "REFLEX BLUE - U155"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark vivid blue"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "BRILLIANT BLUE",
+        "hex": "#090B40",
+        "confidence": "High",
+        "ingredients": [
+          "BRILLIANT BLUE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark strong blue"
+      }
+    ],
+    "Dark Lavender": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "PURPLE - U162",
+        "hex": "#230929",
+        "confidence": "Medium",
+        "ingredients": [
+          "PURPLE - U162"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "near-black clear purple"
+      }
+    ],
+    "Magenta Red": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "MAGENTA -U166",
+        "hex": "#AB1441",
+        "confidence": "Medium",
+        "ingredients": [
+          "MAGENTA -U166"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark strong rose-red"
+      }
+    ],
+    "Yellow": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "LIGHT GREEN - U140",
+        "hex": "#6D9600",
+        "confidence": "High",
+        "ingredients": [
+          "LIGHT GREEN - U140"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark vivid yellow"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "MILITARY GREEN",
+        "hex": "#2B2F07",
+        "confidence": "High",
+        "ingredients": [
+          "MILITARY GREEN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "near-black strong yellow"
+      }
+    ],
+    "Dark Green": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "MEDIUM GREEN - U144",
+        "hex": "#113D10",
+        "confidence": "High",
+        "ingredients": [
+          "MEDIUM GREEN - U144"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark clear green"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "DARK GREEN",
+        "hex": "#102D16",
+        "confidence": "High",
+        "ingredients": [
+          "DARK GREEN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "near-black clear green"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "EMERALD GREEN",
+        "hex": "#1D5A1E",
+        "confidence": "High",
+        "ingredients": [
+          "EMERALD GREEN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark clear green"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "KELLY GREEN",
+        "hex": "#226300",
+        "confidence": "High",
+        "ingredients": [
+          "KELLY GREEN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark vivid green"
+      }
+    ],
+    "Medium Brown": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "IMITATION GOLD - U107",
+        "hex": "#BE9800",
+        "confidence": "Medium",
+        "ingredients": [
+          "IMITATION GOLD - U107"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark vivid golden yellow"
+      },
+      {
+        "type": "Direct stock can",
+        "ronanColor": "GOLD METALLIC - U109",
+        "hex": "#9B6700",
+        "confidence": "Medium",
+        "ingredients": [
+          "GOLD METALLIC - U109"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark vivid orange"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "KHAKI GREEN",
+        "hex": "#716021",
+        "confidence": "Medium",
+        "ingredients": [
+          "KHAKI GREEN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark clear golden yellow"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "OLD GOLD",
+        "hex": "#A07600",
+        "confidence": "Medium",
+        "ingredients": [
+          "OLD GOLD"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark vivid orange"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "BRONZE METALLIC",
+        "hex": "#AA5400",
+        "confidence": "Medium",
+        "ingredients": [
+          "BRONZE METALLIC"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark vivid orange"
+      }
+    ],
+    "Light Yellow": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "IVORY - U116",
+        "hex": "#ECE3B0",
+        "confidence": "Medium",
+        "ingredients": [
+          "IVORY - U116"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "pale clear golden yellow"
+      }
+    ],
+    "White": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "WHITE -U101",
+        "hex": "#EAE9EE",
+        "confidence": "High",
+        "ingredients": [
+          "WHITE -U101"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "near-white muted white"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "LETTERING WHITE",
+        "hex": "#E3E4E8",
+        "confidence": "High",
+        "ingredients": [
+          "LETTERING WHITE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "pale muted white"
+      }
+    ],
+    "Blue": [
+      {
+        "type": "Direct stock can",
+        "ronanColor": "SILVER METALLIC - U105",
+        "hex": "#6D707D",
+        "confidence": "High",
+        "ingredients": [
+          "SILVER METALLIC - U105"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark neutral blue"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "TURQUOISE",
+        "hex": "#3684C3",
+        "confidence": "High",
+        "ingredients": [
+          "TURQUOISE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark clear blue"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "TEAL",
+        "hex": "#31848D",
+        "confidence": "High",
+        "ingredients": [
+          "TEAL"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark clear blue"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "PEACOCK BLUE",
+        "hex": "#5DB0C8",
+        "confidence": "High",
+        "ingredients": [
+          "PEACOCK BLUE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium clear blue"
+      }
+    ],
+    "Blue Green": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "SPRUCE GREEN",
+        "hex": "#204F4E",
+        "confidence": "High",
+        "ingredients": [
+          "SPRUCE GREEN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark clear blue-green / turquoise"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "PROCESS GREEN",
+        "hex": "#1B5343",
+        "confidence": "High",
+        "ingredients": [
+          "PROCESS GREEN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark clear blue-green / turquoise"
+      }
+    ],
+    "Light Yellow Green": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "FRENCH GREEN",
+        "hex": "#88B862",
+        "confidence": "Medium",
+        "ingredients": [
+          "FRENCH GREEN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium soft green"
+      }
+    ],
+    "Gold": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "LIME GREEN",
+        "hex": "#C8CA00",
+        "confidence": "High",
+        "ingredients": [
+          "LIME GREEN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark vivid golden yellow"
+      }
+    ],
+    "Red Brown": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "HUGGER ORANGE",
+        "hex": "#A12600",
+        "confidence": "Medium",
+        "ingredients": [
+          "HUGGER ORANGE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark vivid orange-red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "DARK BROWN",
+        "hex": "#341B13",
+        "confidence": "Medium",
+        "ingredients": [
+          "DARK BROWN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark clear orange-red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "MEDIUM BROWN",
+        "hex": "#3F241B",
+        "confidence": "Medium",
+        "ingredients": [
+          "MEDIUM BROWN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark soft orange-red"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "LIGHT BROWN",
+        "hex": "#643E28",
+        "confidence": "Medium",
+        "ingredients": [
+          "LIGHT BROWN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark clear orange-red"
+      }
+    ],
+    "Orange": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "LIGHT ORANGE",
+        "hex": "#DC7200",
+        "confidence": "High",
+        "ingredients": [
+          "LIGHT ORANGE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark vivid orange"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "TANGERINE",
+        "hex": "#EC8400",
+        "confidence": "High",
+        "ingredients": [
+          "TANGERINE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark vivid orange"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "CAMEL",
+        "hex": "#C9941F",
+        "confidence": "High",
+        "ingredients": [
+          "CAMEL"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark strong orange"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "PLATINUM METALLIC",
+        "hex": "#76736B",
+        "confidence": "High",
+        "ingredients": [
+          "PLATINUM METALLIC"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark neutral orange"
+      }
+    ],
+    "Dark Rose": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "DARK MAGENTA",
+        "hex": "#7A094A",
+        "confidence": "Medium",
+        "ingredients": [
+          "DARK MAGENTA"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark vivid magenta"
+      }
+    ],
+    "Purple": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "PROCESS PURPLE",
+        "hex": "#794A7C",
+        "confidence": "High",
+        "ingredients": [
+          "PROCESS PURPLE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark soft purple"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "LIGHT PURPLE",
+        "hex": "#7D529B",
+        "confidence": "High",
+        "ingredients": [
+          "LIGHT PURPLE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark soft purple"
+      }
+    ],
+    "Pink": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "BUBBLE GUM PINK",
+        "hex": "#E07BA8",
+        "confidence": "Medium",
+        "ingredients": [
+          "BUBBLE GUM PINK"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "light clear rose-red"
+      }
+    ],
+    "Blue Violet": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "VIOLET",
+        "hex": "#1C103C",
+        "confidence": "Medium",
+        "ingredients": [
+          "VIOLET"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "very dark clear blue-violet"
+      }
+    ],
+    "Light Blue": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "PERRYWINKLE",
+        "hex": "#8F93DD",
+        "confidence": "High",
+        "ingredients": [
+          "PERRYWINKLE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "light clear blue"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "LIGHT GRAY",
+        "hex": "#9396A1",
+        "confidence": "High",
+        "ingredients": [
+          "LIGHT GRAY"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium neutral blue"
+      }
+    ],
+    "Pale Blue": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "BABY BLUE",
+        "hex": "#B0C6F1",
+        "confidence": "High",
+        "ingredients": [
+          "BABY BLUE"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "pale strong blue"
+      }
+    ],
+    "Medium Gray": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "MEDIUM GRAY",
+        "hex": "#5F6064",
+        "confidence": "High",
+        "ingredients": [
+          "MEDIUM GRAY"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "medium-dark neutral gray"
+      }
+    ],
+    "Dark Gray": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "DARK GRAY",
+        "hex": "#393A3E",
+        "confidence": "High",
+        "ingredients": [
+          "DARK GRAY"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark neutral gray"
+      },
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "GUNMETAL METALLIC",
+        "hex": "#4B4747",
+        "confidence": "High",
+        "ingredients": [
+          "GUNMETAL METALLIC"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "dark neutral gray"
+      }
+    ],
+    "Light Orange": [
+      {
+        "type": "Ronan formula/mix color",
+        "ronanColor": "VANILLA BEAN",
+        "hex": "#F3EBE4",
+        "confidence": "High",
+        "ingredients": [
+          "VANILLA BEAN"
+        ],
+        "method": "Use as closest current Ronan interpretation.",
+        "notes": "near-white soft orange"
+      }
+    ]
+  }
 };

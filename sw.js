@@ -1,4 +1,4 @@
-const CACHE_NAME = "phalen-ronan-palette-v3";
+const CACHE_NAME = "phalen-ronan-palette-v4";
 const ASSETS = ["./", "./index.html", "./style.css", "./app.js", "./data.js", "./manifest.webmanifest", "./icon.svg"];
 
 self.addEventListener("install", event => {
@@ -7,9 +7,7 @@ self.addEventListener("install", event => {
 });
 
 self.addEventListener("activate", event => {
-  event.waitUntil(
-    caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))))
-  );
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key)))));
   self.clients.claim();
 });
 
